@@ -8,7 +8,7 @@
 
 class World
 {
-	std::vector<Entity> things;
+	std::vector<std::unique_ptr<Entity>> things;
 
 public:
 

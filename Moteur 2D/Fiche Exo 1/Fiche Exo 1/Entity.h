@@ -7,10 +7,9 @@ class Entity
 protected:
 	Vector2D pos;
 
-public:	
+public:
 	Entity(Vector2D position) : pos(position) {}
 
-	Vector2D GetPos() { return pos; };
-	void SetPos(Vector2D pos) { pos.x = GetPos().x, pos.y = GetPos().y; };
+	Vector2D GetPos() { return pos; }
+	void SetPos(Vector2D position) { pos = position; }
 };
-

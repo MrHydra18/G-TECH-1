@@ -9,7 +9,8 @@ void Player::TakeDamage(float dmg)
 
 void Player::Move()
 {
-	SetPos(Vector2D((GetPos().x + GetDirection().x) * GetSpeed(), (GetPos().y + GetDirection().y) * GetSpeed()));
+	SetPos(Vector2D(GetPos().x + GetDirection().x * GetSpeed(),
+		GetPos().y + GetDirection().y * GetSpeed()));
 	std::cout << "Mob move to x = " << GetPos().x << " and y = " << GetPos().y << std::endl;
 }
 

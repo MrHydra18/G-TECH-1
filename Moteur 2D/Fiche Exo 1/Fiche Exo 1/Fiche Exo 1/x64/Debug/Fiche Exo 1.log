@@ -1,0 +1,10 @@
+﻿  AMovable.cpp
+  BreakableObject.cpp
+  Entity.cpp
+  Mob.cpp
+  Player.cpp
+  StaticObject.cpp
+  World.cpp
+  main.cpp
+  Generando código...
+  Fiche Exo 1.vcxproj -> C:\Users\ikerc\Documents\GitHub\G-TECH-1\Moteur 2D\Fiche Exo 1\Fiche Exo 1\x64\Debug\Fiche Exo 1.exe
