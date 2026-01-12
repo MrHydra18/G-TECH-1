@@ -13,5 +13,6 @@ class World
 public:
 
 	void Init();
+	void Step();
 };
 
