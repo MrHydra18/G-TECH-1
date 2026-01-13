@@ -2,10 +2,6 @@
 #include"Game.h"
 #include<iostream>
 
-HandleEvents e;
-
-
-
 void Boutton::Draw(SDL_Renderer* renderer)
 {
 	SDL_SetRenderDrawColor(renderer, color.r, color.g, color.b, color.a);

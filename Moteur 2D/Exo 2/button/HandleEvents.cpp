@@ -1,13 +1,11 @@
 #include "HandleEvents.h"
-#include"Game.h"
-#include"Boutton.h"
-#include<iostream>
+#include "Game.h"
+#include "Boutton.h"
+#include <iostream>
 
-void HandleEvents::Events()
+void HandleEvents::Events(Game& g, Boutton& b)
 {
 	SDL_Event e;
-	Boutton b;
-	Game g;
 
 	if (SDL_PollEvent(&e))
 	{
@@ -21,23 +19,30 @@ void HandleEvents::Events()
 		}
 		if (e.type == SDL_EVENT_MOUSE_BUTTON_DOWN)
 		{
-			mouseX = e.motion.x;
-			mouseY = e.motion.y;
+			mouseX = e.button.x;
+			mouseY = e.button.y;
 			mousePress = true;
 		}
-
-		if (GetClickX() >= b.GetBouttonChangeColor().x && GetClickX() <= b.GetBouttonChangeColor().x + b.GetBouttonChangeColor().w
-			&& GetClickY() >= b.GetBouttonChangeColor().y && GetClickY() <= b.GetBouttonChangeColor().y + b.GetBouttonChangeColor().h
-			&& MousePress()) {
+		if (mousePress &&
+			GetClickX() >= b.GetBouttonChangeColor().x &&
+			GetClickX() <= b.GetBouttonChangeColor().x + b.GetBouttonChangeColor().w &&
+			GetClickY() >= b.GetBouttonChangeColor().y &&
+			GetClickY() <= b.GetBouttonChangeColor().y + b.GetBouttonChangeColor().h)
+		{
 			b.ChangeColor();
 			mousePress = false;
 		}
 
-		if (GetClickX() >= b.GetBouttonQuit().x && GetClickX() <= b.GetBouttonQuit().x + b.GetBouttonQuit().w
-			&& GetClickY() >= b.GetBouttonQuit().y && GetClickY() <= b.GetBouttonQuit().y + b.GetBouttonQuit().h
-			&& MousePress())
+		if (mousePress &&
+			GetClickX() >= b.GetBouttonQuit().x &&
+			GetClickX() <= b.GetBouttonQuit().x + b.GetBouttonQuit().w &&
+			GetClickY() >= b.GetBouttonQuit().y &&
+			GetClickY() <= b.GetBouttonQuit().y + b.GetBouttonQuit().h)
 		{
-			b.Quit();
+			if (b.Quit())
+			{
+				g.isPlaying = false;
+			}
 			mousePress = false;
 		}
 	}

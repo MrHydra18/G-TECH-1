@@ -1,7 +1,7 @@
-#include"Game.h"
-#include<iostream>
-#include"HandleEvents.h"
-#include"Boutton.h"
+#include "Game.h"
+#include <iostream>
+#include "HandleEvents.h"
+#include "Boutton.h"
 
 void Game::Loop()
 {
@@ -12,11 +12,11 @@ void Game::Loop()
 
 	while (isPlaying)
 	{
+		e.Events(*this, b);
 		b.Draw(renderer);
-		e.Events();
 	}
 
-	SDL_DestroyWindow(window);
 	SDL_DestroyRenderer(renderer);
+	SDL_DestroyWindow(window);
 	SDL_Quit();
 }
