@@ -1,0 +1,602 @@
+# ninja log v6
+88	1186	7899964827650461	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/cmake_pch.cxx.obj	300b539bafa14cbb
+32	69	7899964827076950	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+82	511	7899964827550229	CMakeFiles/button.dir/main.cpp.obj.ddi	147959cf41c7e414
+1347	1496	7899964840249895	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_utils.c.obj	e1e9e2b75d0c8bcb
+6472	7046	7899964891491727	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/tray/windows/SDL_tray.c.obj	72a2faef1bf6c130
+120	668	7899964827947258	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj	11eb15bbcbe40072
+5305	5969	7899964879831295	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsmodes.c.obj	f1f42da3c234db7f
+145	715	7899964828233728	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj	40846b7c9bf54348
+4396	4669	7899964870690409	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_video_unsupported.c.obj	bc60914960f6542f
+161	727	7899964828388345	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj	bebeeb2485ff46b
+1657	3097	7899964843370895	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/dynapi/SDL_dynapi.c.obj	b7741aa62e9be654
+153	690	7899964828233728	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj	cfe992ef7a2a45d3
+728	1209	7899964834061355	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj	3f0c206d5ae48e50
+3132	3525	7899964858093663	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/software/SDL_render_sw.c.obj	372b31badaf3d1d8
+137	738	7899964828131405	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj	90dae80919325c9e
+169	815	7899964828452456	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj	1cdfff14b1409f14
+2762	3115	7899964854400855	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/gpu/SDL_shaders_gpu.c.obj	5e0d465d8495a24f
+2203	2911	7899964848807827	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/SDL_gamepad.c.obj	c06d219ce65ea99
+105	703	7899964827854266	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj	32bd6eec04ebed91
+1765	1982	7899964844448999	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_displayevents.c.obj	9072770ada921434
+7204	7351	7899964898813952	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_report_descriptor.c.obj	4d4211a2bacf4fa7
+113	748	7899964827907201	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj	72a7c485cc6c7b69
+1471	1636	7899964841511595	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/SDL_audioqueue.c.obj	dbeb25b380734d85
+178	758	7899964828558209	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj	687548c694e5da62
+738	1300	7899964834168533	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj	8a872ea82359496
+186	829	7899964828662487	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj	63e5cbc5b2933253
+129	840	7899964828076271	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj	3c6a28e54a15987e
+816	1347	7899964834963186	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj	7cc2a28dfd50a998
+5762	6690	7899964884395463	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowswindow.c.obj	f88c2bda3e955525
+96	1081	7899964827746434	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/cmake_pch.c.obj	3b1747ecef0a659d
+1516	1664	7899964841827271	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/SDL_mixer.c.obj	60614eb959a6a4b5
+1187	1783	7899964838650823	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_assert.c.obj	e3ca618942f5af1f
+529	1145	7899964831999583	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj	e2212e828369ff56
+8626	8872	7899964913007147	_deps/sdl3-build/SDL3-static.lib	49ee6bfe01d134b3
+1197	1471	7899964838650823	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_error.c.obj	1cdcda2438137f78
+690	1162	7899964833674083	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj	70343c662dff05ec
+1665	1888	7899964843428567	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_categories.c.obj	a4ddeff2a391e00
+670	1173	7899964833490676	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj	93f21d08ed1a7805
+4822	5282	7899964875020296	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/core/windows/SDL_hid.c.obj	d763b3fa7eccd9e
+715	1197	7899964833947314	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj	258554391df27f60
+829	1358	7899964835087469	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj	b3b3a7fe94979a05
+1174	1879	7899964838515304	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL.c.obj	2da610fd45bcf41e
+1162	1217	7899964838650823	CMakeFiles/button.dir/CXX.dd	896ddfb65a725530
+1453	1657	7899964841289001	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/SDL_audiocvt.c.obj	8ebf6c8aecf5bf26
+1162	1217	7899964838650823	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	896ddfb65a725530
+1162	1217	7899964838650823	CMakeFiles/button.dir/main.cpp.obj.modmap	896ddfb65a725530
+840	1678	7899964835205374	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj	b80a93aef59e1945
+748	1285	7899964834213589	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj	64c573207dc33d1d
+1335	1486	7899964840127756	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_properties.c.obj	f00e51a469c57607
+703	1319	7899964833739274	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj	cdcf654564009aee
+4505	5232	7899964871764235	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_vulkan_utils.c.obj	fa49286250968382
+1145	2133	7899964838254832	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj	8bd65809ec5eeefd
+8873	9295	7899964915539765	button.exe	ce9763099e4ad7cd
+759	1334	7899964834369923	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj	63eba7cf4dd76088
+7342	8112	7899964900175342	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/haptic/windows/SDL_dinputhaptic.c.obj	16fb8016e13000d2
+4278	4526	7899964869573939	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_fillrect.c.obj	ab4e886531f0516f
+1210	1366	7899964838881968	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_guid.c.obj	bb102aa08416d078
+3939	4256	7899964866164829	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_blit_0.c.obj	c74afe8a0125c02c
+2192	2347	7899964848676469	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/io/generic/SDL_asyncio_generic.c.obj	e111c1966b1f3906
+1218	1373	7899964838979384	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_hashtable.c.obj	568f7d36bf9f187d
+4709	5037	7899964873828176	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/dummy/SDL_nullvideo.c.obj	66f7af16d4b015b7
+1300	1453	7899964839812035	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_list.c.obj	fd87130f5a1b0974
+5464	6194	7899964881423573	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsopengles.c.obj	8cda4d5106447e09
+1773	2004	7899964844514675	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_dropevents.c.obj	90a781f24b9a9510
+1285	1461	7899964839655294	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_hints.c.obj	e642b5448759af44
+1358	1515	7899964840380429	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/atomic/SDL_atomic.c.obj	bbfc2cc2035e6552
+1462	1526	7899964841393949	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/SDL_audiodev.c.obj	fb16bda27e355bdf
+5038	5627	7899964877156794	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/wasapi/SDL_wasapi.c.obj	523e3082d8068995
+1486	1627	7899964841666759	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/SDL_audioresample.c.obj	7dbfcca062e31086
+4365	4651	7899964870453818	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_stretch.c.obj	a6b6af50955212a2
+1496	1647	7899964841769559	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/SDL_audiotypecvt.c.obj	e4170b381dca0714
+2004	2111	7899964846770183	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_scancode_tables.c.obj	54b854db63f95b3c
+1526	1764	7899964842000560	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/SDL_wave.c.obj	4da6189c98f589b1
+1636	1773	7899964843153191	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/core/SDL_core_unsupported.c.obj	208af727dd0fdbeb
+6464	7026	7899964891437143	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/loadso/windows/SDL_sysloadso.c.obj	6d1163b8e88d1e73
+1082	2177	7899964837553644	_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj	c0f3a68ea8ac13cf
+1678	1899	7899964843579715	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_clipboardevents.c.obj	8feece5f93379e7e
+1320	1911	7899964840002309	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/SDL_log.c.obj	f56dab64dbfedb27
+3124	3484	7899964857993152	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/software/SDL_drawpoint.c.obj	89210f54ae92a61f
+1366	1924	7899964840455718	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/atomic/SDL_spinlock.c.obj	4c51f50bfe6b9f3b
+1374	1935	7899964840455718	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/SDL_audio.c.obj	114e5c6abee02bf7
+3430	3580	7899964861098562	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj	abd2c9446a274dcb
+1879	1966	7899964845469485	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_eventwatch.c.obj	b4c36ff2868a60c
+1924	2011	7899964846024831	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_keysym_to_scancode.c.obj	5a12c48bcfb80071
+1911	2019	7899964845894499	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_keysym_to_keycode.c.obj	2af98e9b63a75ed4
+1899	2028	7899964845787326	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_keymap.c.obj	991eda44e6797147
+7008	7256	7899964896834470	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.obj	18188f9cbff2b91
+2012	2156	7899964846897376	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_touch.c.obj	ac3150be2ae3e922
+4936	5054	7899964876147195	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/io/windows/SDL_asyncio_windows_ioring.c.obj	761ba849bde8797b
+1889	2164	7899964845655173	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_keyboard.c.obj	2bbd735afdc19e89
+1982	2184	7899964846653702	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_quit.c.obj	221629b64e5bd070
+1966	2192	7899964846446008	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_pen.c.obj	a86faee1bf4810f2
+7027	7309	7899964897001127	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj	fa2c4d436f1f6ce1
+1627	2203	7899964843030249	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/camera/SDL_camera.c.obj	14430a9de8cfddfd
+2028	2210	7899964847057435	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/imKStoUCS.c.obj	36caa62bab4f3f9c
+2112	2328	7899964847885905	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/filesystem/SDL_filesystem.c.obj	ca66f2bf0b1b20e8
+7452	7604	7899964901290340	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/dialog/SDL_dialog.c.obj	db7639d0085a10c5
+2019	2338	7899964846994028	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_windowevents.c.obj	3c3796411c6babce
+2156	2356	7899964848331478	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/haptic/SDL_haptic.c.obj	900c5a49ebb09893
+1648	2366	7899964843286008	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/cpuinfo/SDL_cpuinfo.c.obj	e40cf834283d8f13
+2177	2375	7899964848538102	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/io/SDL_asyncio.c.obj	19ccad9c91ec745b
+2134	2384	7899964848138423	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/gpu/SDL_gpu.c.obj	8ffc41c723e73b81
+2338	2453	7899964850169248	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/controller_type.c.obj	fcd2792c03b3c39b
+2356	2475	7899964850317740	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/main/SDL_main_callbacks.c.obj	6300cdcc8eeb5a2
+2375	2484	7899964850553473	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/misc/SDL_libusb.c.obj	5bea0ebc648f6920
+2366	2493	7899964850464737	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/main/SDL_runapp.c.obj	6ee63c409108802b
+7321	7890	7899964900014012	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/windows/SDL_xinputjoystick.c.obj	e37950878b91c66b
+2348	2501	7899964850280352	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/locale/SDL_locale.c.obj	80f41f13b7a25d75
+2912	3124	7899964855785681	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/opengles2/SDL_shaders_gles2.c.obj	1deb3332c772d11a
+7257	7913	7899964899360407	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/windows/SDL_dinputjoystick.c.obj	3718e37edabcb57c
+2384	2566	7899964850576175	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/misc/SDL_url.c.obj	68aec93d5e16165b
+2485	2575	7899964851605886	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/SDL_render_unsupported.c.obj	952d7640396793d
+2454	2584	7899964851340753	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/power/SDL_power.c.obj	b1190d3d1d8e4046
+1935	2603	7899964846146862	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_mouse.c.obj	779c9a093304db2c
+1784	2622	7899964844616422	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/events/SDL_events.c.obj	3a54798fb2f8cdbb
+2493	2656	7899964851686368	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/SDL_yuv_sw.c.obj	9236ce57a1d69ae5
+2476	2735	7899964851505327	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/SDL_render.c.obj	f3cdabec75b23ef2
+2185	2762	7899964848648430	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/io/SDL_iostream.c.obj	a7073eb3cef6646
+2328	2774	7899964850069432	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/SDL_steam_virtual_gamepad.c.obj	940aae17130544b6
+2164	2791	7899964848331478	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/hidapi/SDL_hidapi.c.obj	500a747f9892f4d3
+2775	2890	7899964854548645	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/ngage/SDL_render_ngage.c.obj	da57625cff72104f
+3623	3938	7899964863036718	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_memset.c.obj	7060718991d1e76a
+2656	2899	7899964853362334	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/gpu/SDL_pipeline_gpu.c.obj	703de7b66cbf7e55
+2735	2924	7899964854143770	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/gpu/SDL_render_gpu.c.obj	133052650bbc1b1c
+2210	2938	7899964848850666	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/SDL_joystick.c.obj	d93ad9e8cd9dca8e
+2924	3080	7899964855953416	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/ps2/SDL_render_ps2.c.obj	78b908c0368f817
+3581	3843	7899964862606130	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_iconv.c.obj	97882bbd3cbf734b
+5993	6377	7899964886676335	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/windows/SDL_syssem.c.obj	4845c024a52214c9
+2900	3106	7899964855785681	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/opengles2/SDL_render_gles2.c.obj	4b38f0f31c60c835
+2939	3131	7899964856153756	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/psp/SDL_render_psp.c.obj	546bbe65266611b4
+3106	3372	7899964857833892	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/software/SDL_blendpoint.c.obj	8a75b31c0d2d5c0b
+3115	3429	7899964857960576	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/software/SDL_drawline.c.obj	523764ed3f2da556
+3080	3462	7899964857531370	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/software/SDL_blendfillrect.c.obj	44aa9caa2e24ec1e
+6999	7268	7899964896677474	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.obj	c58ba30eb3b7a952
+2502	3503	7899964851822875	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/direct3d/SDL_render_d3d.c.obj	274e79cc659dac8e
+3098	3517	7899964857753155	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/software/SDL_blendline.c.obj	d4bc808757f97d25
+2576	3923	7899964852549918	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/direct3d11/SDL_render_d3d11.c.obj	45935c4c0a0665f3
+2566	3545	7899964852451755	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/direct3d/SDL_shaders_d3d.c.obj	2d7dfc2e904d2a74
+2792	3555	7899964854716385	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/opengl/SDL_render_gl.c.obj	f6607df2b4d72f2b
+2603	3569	7899964852769011	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/direct3d12/SDL_render_d3d12.c.obj	f5f1e373d3aeedef
+2585	3593	7899964852654608	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj	1c8e97e83736995d
+7595	7740	7899964902688559	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/process/SDL_process.c.obj	4307c6be5e53f42
+2890	3602	7899964855685406	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/opengl/SDL_shaders_gl.c.obj	66e766fe052de182
+3843	4020	7899964865162680	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_string.c.obj	5d16c1d68593bafa
+3462	3610	7899964861395102	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj	1fde553963087a7
+3484	3623	7899964861634684	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj	dd50546aea7044c8
+3546	3671	7899964862265759	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_crc16.c.obj	284b35c5b95bda12
+3372	3762	7899964860531285	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/software/SDL_triangle.c.obj	4fc32ac7e0681489
+4679	4890	7899964873507692	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj	60caad5fd86641f5
+4831	5463	7899964875100375	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/core/windows/SDL_immdevice.c.obj	ed49fed02f7c43ef
+8128	8258	7899964907968547	_deps/sdl3-build/SDL_uclibc.lib	1ddedf60ded7cc2d
+3610	3789	7899964862904753	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_memmove.c.obj	e8ec058650eeb69f
+7046	7291	7899964897181914	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_wii.c.obj	fcf5b9c00e738bdb
+3526	3803	7899964862060698	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/sensor/SDL_sensor.c.obj	350b6fb204941654
+3593	3831	7899964862699983	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_malloc.c.obj	dacda59c20b741
+3555	3857	7899964862352274	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_crc32.c.obj	19411bbbd2fe4634
+7462	7614	7899964901417826	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/dialog/SDL_dialog_utils.c.obj	ed04011f9db6bc3
+2623	3872	7899964853006443	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj	bcf59071c20f61
+3603	3881	7899964862748423	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_memcpy.c.obj	586fc1517d8e0cc5
+3763	3891	7899964864331363	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_murmur3.c.obj	569ecaae64397346
+3517	3911	7899964861960449	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/vulkan/SDL_shaders_vulkan.c.obj	c28a8277bee37df3
+3790	3931	7899964864687896	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_qsort.c.obj	def98d2e1f23fbf1
+3672	3947	7899964863499865	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_mslibc.c.obj	6cf54c1f7e4bec7b
+7291	8626	7899964899681979	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj	5cc5a9f202c2440b
+3803	3956	7899964864802970	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_random.c.obj	96d55023af36a346
+3858	4007	7899964865371865	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_strtokr.c.obj	62fe627afa81a6dc
+3872	4030	7899964865511966	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/storage/SDL_storage.c.obj	1ffc06d525807d4
+3831	4040	7899964865106444	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_stdlib.c.obj	7ea73c29cd2526c3
+3892	4055	7899964865689337	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/time/SDL_time.c.obj	169e8c0239d1692d
+3923	4247	7899964866034117	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_RLEaccel.c.obj	b7ed60d118e1d46
+3948	4278	7899964866222066	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_blit_1.c.obj	fcab9d0e7ea088da
+3957	4293	7899964866300488	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_blit_A.c.obj	913da553e405caa4
+4056	4337	7899964867331922	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_bmp.c.obj	e4898c167f353115
+3931	4356	7899964866064179	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_blit.c.obj	ea24873092cf6ccc
+4031	4346	7899964867107927	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_blit_copy.c.obj	3b0c1b983cfeced5
+4041	4365	7899964867211806	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_blit_slow.c.obj	d20fc168148a4575
+4007	4374	7899964866874129	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_blit_N.c.obj	8d5aed5f8d6ca4fd
+3570	4385	7899964862499371	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_getenv.c.obj	4ce24a8dadbc35bc
+4020	4395	7899964866975382	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_blit_auto.c.obj	fcf02ea0529653d2
+4337	4505	7899964870171955	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_rect.c.obj	d73daa137c95543d
+4247	4556	7899964869274657	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_clipboard.c.obj	fcdc5f54afe1bd68
+5473	6348	7899964881538031	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsrawinput.c.obj	6d0d0fc72935f41e
+4293	4575	7899964869698625	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_pixels.c.obj	4cfe7f0b325fbc2b
+3503	4626	7899964861795695	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/render/vulkan/SDL_render_vulkan.c.obj	f8866a4eddd659de
+4347	4660	7899964870257046	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_rotate.c.obj	cd9edf45a2b97688
+4356	4678	7899964870332510	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_stb.c.obj	5b1546d758d191d0
+7604	8127	7899964902769460	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/process/windows/SDL_windowsprocess.c.obj	588753bc887f9a43
+3881	4689	7899964865618570	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/SDL_thread.c.obj	7dc15140ae5127fc
+4374	4697	7899964870498951	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_surface.c.obj	68a38b170a245e90
+3911	4709	7899964865904978	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/timer/SDL_timer.c.obj	c50090acfbc08df0
+4557	4775	7899964872238129	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.obj	b7b2beb4c29d6ead
+4526	4822	7899964871951694	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_yuv.c.obj	4f2d5508439e568b
+4651	4831	7899964873283676	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/dummy/SDL_dummyaudio.c.obj	87d5cd6a4bb67a59
+4627	4852	7899964873057947	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/yuv2rgb/yuv_rgb_std.c.obj	effb3ec9ae1382d1
+4660	4910	7899964873404656	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/disk/SDL_diskaudio.c.obj	ecf8688d778fc835
+4575	4919	7899964872554726	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/yuv2rgb/yuv_rgb_sse.c.obj	73ec78268c5e1b90
+4669	4927	7899964873446258	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/camera/dummy/SDL_camera_dummy.c.obj	4d3fefebd981c9e6
+4697	4936	7899964873667053	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/dummy/SDL_nullframebuffer.c.obj	1512b6bd60e42429
+4689	4944	7899964873667053	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/dummy/SDL_nullevents.c.obj	7a1933d4edb450c2
+4919	5022	7899964875960562	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/core/windows/pch_cpp.cpp.obj	8853eb368a9c74a5
+4910	5046	7899964875892132	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/core/windows/pch.c.obj	67c1128a46b9cf63
+4257	5066	7899964869367441	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_egl.c.obj	fe6ebd4774060389
+4891	5293	7899964875700249	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/core/windows/SDL_xinput.c.obj	1207774482751426
+4386	5304	7899964870662373	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/SDL_video.c.obj	c6a901a2dbf1534
+4927	5314	7899964876044533	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/main/windows/SDL_sysmain_runapp.c.obj	9193323e402b2607
+4945	5453	7899964876212222	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/misc/windows/SDL_sysurl.c.obj	51f604472f75e8b
+4852	5473	7899964875257745	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/core/windows/SDL_windows.c.obj	fe88d38c60f72c5b
+4775	5573	7899964874462444	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/core/windows/SDL_gameinput.cpp.obj	f27dced6cf0f673b
+5046	5616	7899964877206060	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsclipboard.c.obj	a77df3c77fcadc3a
+7741	7899	7899964904209397	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/offscreen/SDL_offscreenframebuffer.c.obj	695a13df64a20a17
+5066	5762	7899964877444720	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsframebuffer.c.obj	5f1d2d6ce40c82bb
+5022	5774	7899964877000436	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/audio/directsound/SDL_directsound.c.obj	40559f57313b932e
+5283	5892	7899964879607134	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowskeyboard.c.obj	235d09a54c5bced
+5315	5923	7899964879950782	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsmouse.c.obj	b0561e3cc02d69f7
+5055	5983	7899964877316633	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsevents.c.obj	b81ba311fbd7c4e6
+7309	7926	7899964899898417	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/windows/SDL_windowsjoystick.c.obj	9d548a3b88b93a4e
+5774	5993	7899964884519263	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/generic/SDL_syscond.c.obj	4dea1a77a876c358
+5294	6006	7899964879718850	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsmessagebox.c.obj	14700106eaac3a3e
+6938	7155	7899964896203519	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj	853ce1843072b51a
+5893	6075	7899964885720538	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/generic/SDL_sysrwlock.c.obj	d95717b709d63b5e
+5233	6087	7899964879085073	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsgameinput.cpp.obj	a405785ed6880a6a
+5453	6120	7899964881333188	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsopengl.c.obj	1ccd227556e886c9
+5574	6206	7899964882533183	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsshape.c.obj	d3a98c816e877c01
+5970	6332	7899964886451224	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/windows/SDL_sysmutex.c.obj	a62d872cf65458fd
+5924	6358	7899964886040790	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/windows/SDL_syscond_cv.c.obj	47ddd9490961e90e
+5984	6368	7899964886641238	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/windows/SDL_sysrwlock_srw.c.obj	c60cf7c39df6d711
+6006	6463	7899964886835434	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/windows/SDL_systhread.c.obj	f454872e073e7bc0
+6348	6472	7899964890166920	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/storage/generic/SDL_genericstorage.c.obj	e2fdf6e6ec46070a
+6075	6483	7899964887541432	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/thread/windows/SDL_systls.c.obj	671a69135e486ba0
+6358	6492	7899964890325420	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/storage/steam/SDL_steamstorage.c.obj	64027e362378ea0f
+5628	6505	7899964883077621	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsvulkan.c.obj	9e7282fe56dbd2b9
+6120	6599	7899964887990651	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/power/windows/SDL_syspower.c.obj	89db97cb1ef703bf
+5617	6656	7899964882946716	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/windows/SDL_windowsvideo.c.obj	6e426c9845f63975
+7166	7766	7899964898450736	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj	1a7d8d18e9f11da4
+6493	6703	7899964891734141	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj	c422fdbb1d8080fe
+6483	6713	7899964891624587	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.obj	2896e63ff68a0110
+6195	6723	7899964888734309	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/locale/windows/SDL_syslocale.c.obj	b71a622dfc0f31c7
+6207	7217	7899964888867667	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj	5090efd836e187f4
+6506	6732	7899964891851430	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.obj	9a39939583882e2b
+6599	6839	7899964892713343	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj	d5a4898c4df7bda0
+6332	6938	7899964890117579	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/filesystem/windows/SDL_sysfsops.c.obj	5254c921686937f3
+6087	6958	7899964887675430	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/sensor/windows/SDL_windowssensor.c.obj	9c5301e419d54bd5
+6704	6969	7899964893820757	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj	fca977c8b7bdbee9
+6713	6985	7899964893865825	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.obj	e8a232f8cc0e7b78
+6368	6999	7899964890489082	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/time/windows/SDL_systime.c.obj	c40bc341a0e94f5c
+6656	7008	7899964893348642	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_gip.c.obj	f6dec74567083f81
+6691	7016	7899964893712857	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.obj	a23319a8564d1ea5
+7938	8257	7899964906186092	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.obj	1db766c0f30f2f3a
+6377	7036	7899964890489082	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/timer/windows/SDL_systimer.c.obj	4e3c6d335281a79b
+6732	7054	7899964894086022	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj	76730565a0a4deaf
+6723	7062	7899964894030356	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj	28131919f373242e
+6958	7135	7899964896359957	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.obj	8d6c363a627f10f0
+7036	7165	7899964897148299	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.obj	cb92b7105eb68700
+7054	7203	7899964897306410	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj	8f715e4f9ca4a5d
+6969	7235	7899964896480505	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj	942685471fb2abdf
+6986	7321	7899964896661771	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj	2e357297fd492fe9
+7017	7330	7899964896968884	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj	a5c1fa2a38474fce
+7268	8622	7899964899480895	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj	54895d907cf85041
+7062	7342	7899964897306410	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj	4abff956216487eb
+7217	7443	7899964898954189	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/haptic/hidapi/SDL_hidapihaptic.c.obj	9e2988a6830bbc4c
+7235	7452	7899964899043825	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.obj	cd0c175f914b8cb9
+7136	7461	7899964898106505	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj	4ec0bc7dc53f806
+7155	7470	7899964898342551	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.obj	611ca20c1a37cdc9
+6839	7595	7899964895106518	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj	4f8d8ea161227724
+7614	7777	7899964902948814	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/offscreen/SDL_offscreenevents.c.obj	d671078df926357c
+7352	7938	7899964900314839	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/haptic/windows/SDL_windowshaptic.c.obj	77d1d093935351e2
+7890	8316	7899964905692417	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/offscreen/SDL_offscreenvulkan.c.obj	958eacd403d0a0fe
+7913	8140	7899964905874221	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/tray/SDL_tray_utils.c.obj	cf4390f55c904921
+7444	8150	7899964901223889	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.obj	864acf738e2b755e
+7330	8153	7899964900106580	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/joystick/gdk/SDL_gameinputjoystick.cpp.obj	6de36b3a47e41b85
+7767	8248	7899964904473545	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/offscreen/SDL_offscreenopengles.c.obj	96dcc5442f2f5ee6
+7901	8251	7899964905726502	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/offscreen/SDL_offscreenwindow.c.obj	e0f4b009a3efff39
+8112	8258	7899964907777420	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/main/generic/SDL_sysmain_callbacks.c.obj	7bd76dbfd99e0b10
+7777	8261	7899964904473545	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/video/offscreen/SDL_offscreenvideo.c.obj	4b0442cd9d96d16f
+7470	8303	7899964901463626	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/dialog/windows/SDL_windowsdialog.c.obj	cb4f8848d3912e61
+8140	8417	7899964908206013	CMakeFiles/button.dir/main.cpp.obj	a7fc99924ebb0776
+7927	8457	7899964906059011	_deps/sdl3-build/CMakeFiles/SDL3-static.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.obj	f7ac3f4af37211b1
+32	66	7899987726329530	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+103	430	7899987726973900	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+97	435	7899987726973900	CMakeFiles/button.dir/main.cpp.obj.ddi	147959cf41c7e414
+112	447	7899987727200715	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+124	451	7899987727293509	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+453	484	7899987730602415	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+453	484	7899987730602415	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+453	484	7899987730602415	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+453	484	7899987730602415	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+453	484	7899987730602415	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+453	484	7899987730602415	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+150	910	7899987727471777	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.obj	cea1297a6b0dfc8e
+175	926	7899987727775143	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.obj	707c02fff2d4eeeb
+166	931	7899987727720093	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.obj	1f6f17f824dba64d
+158	934	7899987727649512	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.obj	f16daae2ac878c00
+202	938	7899987728069427	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.obj	13ddcd60f8c9132e
+143	941	7899987727471777	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.obj	4ccf946e4b7b9bfe
+136	981	7899987727440072	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.obj	53b866e76809bf14
+193	990	7899987728004302	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.obj	a51e7d6e744ac903
+490	996	7899987730919111	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+186	1001	7899987727908320	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.obj	1274cb40ea489df3
+209	1183	7899987728159184	_deps/sdl3-build/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.obj	47dfad4e8f44df37
+33	70	7899989256010808	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+123	189	7899989257004784	_deps/sdl3-build/SDL3_test.lib	c267db6c9b0d5466
+109	247	7899989256812688	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+103	251	7899989256812688	CMakeFiles/button.dir/main.cpp.obj.ddi	147959cf41c7e414
+116	261	7899989256936680	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+296	325	7899989258715537	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+296	325	7899989258715537	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+296	325	7899989258715537	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+296	325	7899989258715537	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+296	325	7899989258715537	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+296	325	7899989258715537	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+33	65	7899989350774927	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+100	316	7899989351512135	CMakeFiles/button.dir/main.cpp.obj	a7fc99924ebb0776
+35	68	7899989930754220	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+104	222	7899989931435093	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+224	253	7899989932589290	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+224	253	7899989932589290	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+224	253	7899989932589290	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+224	253	7899989932589290	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+224	253	7899989932589290	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+224	253	7899989932589290	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+33	64	7899991611258089	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+98	219	7899991611895831	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+104	223	7899991612052418	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+224	256	7899991613215301	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+224	256	7899991613215301	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+224	256	7899991613215301	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+224	256	7899991613215301	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+224	256	7899991613215301	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+224	256	7899991613215301	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+263	445	7899991613642342	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+32	65	7899991955295999	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+33	66	7899992525533128	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+99	318	7899992526220646	CMakeFiles/button.dir/main.cpp.obj	a7fc99924ebb0776
+105	328	7899992526220646	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+111	336	7899992526369047	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+337	573	7899992528581143	button.exe	9a00933e1063eaa2
+34	70	7899992568719307	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+32	64	7899992818718056	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+34	67	7899993195249558	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+98	219	7899993195877615	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+221	254	7899993197150905	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+221	254	7899993197150905	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+221	254	7899993197150905	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+221	254	7899993197150905	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+221	254	7899993197150905	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+221	254	7899993197150905	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+256	446	7899993197479159	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+446	615	7899993199385375	button.exe	9a00933e1063eaa2
+31	62	7899993253261571	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+31	63	7899994797087099	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+94	215	7899994797730080	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+100	223	7899994797730080	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+225	256	7899994798972134	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+225	256	7899994798972134	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+225	256	7899994798972134	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+225	256	7899994798972134	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+225	256	7899994798972134	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+225	256	7899994798972134	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+263	446	7899994799448118	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+42	89	7899994919228174	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+124	232	7899994920084795	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+235	270	7899994921196817	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+235	270	7899994921196817	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+235	270	7899994921196817	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+235	270	7899994921196817	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+235	270	7899994921196817	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+235	270	7899994921196817	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+271	431	7899994921505580	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+432	579	7899994923095207	button.exe	9a00933e1063eaa2
+34	67	7899995368018191	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+110	230	7899995368817386	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+232	264	7899995370014288	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+232	264	7899995370014288	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+232	264	7899995370014288	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+232	264	7899995370014288	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+232	264	7899995370014288	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+232	264	7899995370014288	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+265	435	7899995370350641	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+436	586	7899995372034666	button.exe	9a00933e1063eaa2
+32	69	7899996998045968	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+98	220	7899996998833544	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+104	229	7899996998833544	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+231	262	7899997000136444	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+231	262	7899997000136444	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+231	262	7899997000136444	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+231	262	7899997000136444	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+231	262	7899997000136444	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+231	262	7899997000136444	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+263	480	7899997000420942	CMakeFiles/button.dir/main.cpp.obj	a7fc99924ebb0776
+269	484	7899997000420942	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+275	488	7899997000579503	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+282	498	7899997000638066	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+498	644	7899997002793840	button.exe	9a00933e1063eaa2
+32	63	7899997966888453	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+96	216	7899997967522184	CMakeFiles/button.dir/main.cpp.obj.ddi	147959cf41c7e414
+104	220	7899997967596554	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+222	251	7899997968796660	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+222	251	7899997968796660	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+222	251	7899997968796660	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+222	251	7899997968796660	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+222	251	7899997968796660	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+222	251	7899997968796660	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+252	463	7899997969107673	CMakeFiles/button.dir/main.cpp.obj	a7fc99924ebb0776
+271	485	7899997969300349	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+258	489	7899997969107673	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+264	492	7899997969213716	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+493	624	7899997971500347	button.exe	9a00933e1063eaa2
+34	66	7900000146555796	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+97	211	7900000147257792	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+103	221	7900000147257792	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+222	254	7900000148471349	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+222	254	7900000148471349	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+222	254	7900000148471349	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+222	254	7900000148471349	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+222	254	7900000148471349	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+222	254	7900000148471349	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+255	433	7900000148777710	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+261	436	7900000148877909	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+436	591	7900000150562600	button.exe	9a00933e1063eaa2
+35	69	7900000170497575	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+33	65	7900001037329438	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+33	64	7900005380486444	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+95	223	7900005381115649	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+101	227	7900005381115649	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+229	261	7900005382488669	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+229	261	7900005382488669	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+229	261	7900005382488669	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+229	261	7900005382488669	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+229	261	7900005382488669	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+229	261	7900005382488669	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+268	447	7900005382864164	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+34	68	7900005626156234	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+100	209	7900005626827014	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+211	245	7900005627908347	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+211	245	7900005627908347	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+211	245	7900005627908347	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+211	245	7900005627908347	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+211	245	7900005627908347	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+211	245	7900005627908347	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+37	69	7900006076692954	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+101	208	7900006077332385	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+210	243	7900006078433812	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+210	243	7900006078433812	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+210	243	7900006078433812	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+210	243	7900006078433812	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+210	243	7900006078433812	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+210	243	7900006078433812	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+245	419	7900006078829472	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+419	580	7900006080507822	button.exe	9a00933e1063eaa2
+33	63	7900006266586771	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+34	68	7900007148336285	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+109	329	7900007149130887	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+331	365	7900007151394199	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+331	365	7900007151394199	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+331	365	7900007151394199	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+331	365	7900007151394199	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+331	365	7900007151394199	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+331	365	7900007151394199	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+366	1110	7900007151701260	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+1110	1435	7900007159106964	button.exe	9a00933e1063eaa2
+33	64	7900007703191865	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+34	69	7900010315925075	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+108	293	7900010316597651	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+114	395	7900010316723010	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+398	433	7900010319514276	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+398	433	7900010319514276	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+398	433	7900010319514276	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+398	433	7900010319514276	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+398	433	7900010319514276	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+398	433	7900010319514276	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+435	647	7900010319910738	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+442	1049	7900010320000892	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+1049	1219	7900010326016458	button.exe	9a00933e1063eaa2
+35	67	7900010336388580	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+34	68	7900012147839228	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+99	271	7900012148575758	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+274	308	7900012150246309	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+274	308	7900012150246309	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+274	308	7900012150246309	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+274	308	7900012150246309	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+274	308	7900012150246309	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+274	308	7900012150246309	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+310	896	7900012150560531	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+896	1136	7900012156412941	button.exe	9a00933e1063eaa2
+31	67	7900012183636610	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+35	72	7900013247619820	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+34	68	7900013381984563	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+32	64	7900013462347741	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+34	68	7900015045537733	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+100	274	7900015046172908	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+106	284	7900015046172908	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+286	317	7900015048090577	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+286	317	7900015048090577	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+286	317	7900015048090577	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+286	317	7900015048090577	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+286	317	7900015048090577	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+286	317	7900015048090577	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+318	907	7900015048419210	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+324	928	7900015048419210	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+928	1095	7900015054545174	button.exe	9a00933e1063eaa2
+34	67	7900015077919982	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+35	68	7900016053615421	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+109	268	7900016054309156	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+271	302	7900016055926700	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+271	302	7900016055926700	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+271	302	7900016055926700	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+271	302	7900016055926700	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+271	302	7900016055926700	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+271	302	7900016055926700	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+303	870	7900016056279005	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+870	1037	7900016061924767	button.exe	9a00933e1063eaa2
+32	64	7900016735480231	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+95	269	7900016736105933	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+272	304	7900016737853813	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+272	304	7900016737853813	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+272	304	7900016737853813	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+272	304	7900016737853813	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+272	304	7900016737853813	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+272	304	7900016737853813	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+306	915	7900016738186364	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+915	1087	7900016744178195	button.exe	9a00933e1063eaa2
+34	64	7900016919030650	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+32	66	7900017179743206	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+33	66	7900017570436873	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+97	250	7900017571065030	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+253	287	7900017572661787	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+253	287	7900017572661787	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+253	287	7900017572661787	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+253	287	7900017572661787	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+253	287	7900017572661787	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+253	287	7900017572661787	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+288	835	7900017572976912	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+835	1001	7900017578435621	button.exe	9a00933e1063eaa2
+31	63	7900017716520426	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+103	264	7900017717161687	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+267	303	7900017718861654	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+267	303	7900017718861654	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+267	303	7900017718861654	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+267	303	7900017718861654	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+267	303	7900017718861654	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+267	303	7900017718861654	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+305	900	7900017719232600	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+900	1070	7900017725200357	button.exe	9a00933e1063eaa2
+32	64	7900018026677781	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+96	257	7900018027313336	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+260	295	7900018028981863	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+260	295	7900018028981863	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+260	295	7900018028981863	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+260	295	7900018028981863	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+260	295	7900018028981863	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+260	295	7900018028981863	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+296	867	7900018029291750	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+867	1030	7900018034968500	button.exe	9a00933e1063eaa2
+35	68	7900018991221038	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+108	232	7900018992020623	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+102	295	7900018991944956	CMakeFiles/button.dir/HandleEvents.cpp.obj.ddi	f93305daf37b0e1f
+297	328	7900018993929210	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+297	328	7900018993929210	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+297	328	7900018993929210	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+297	328	7900018993929210	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+297	328	7900018993929210	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+297	328	7900018993929210	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+335	512	7900018994245478	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+329	876	7900018994245478	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+877	1037	7900018999692455	button.exe	9a00933e1063eaa2
+33	68	7900020050447595	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+114	226	7900020051231697	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+108	279	7900020051231697	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+281	314	7900020052977722	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+281	314	7900020052977722	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+281	314	7900020052977722	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+281	314	7900020052977722	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+281	314	7900020052977722	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+281	314	7900020052977722	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+327	533	7900020053554249	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+315	927	7900020053291793	CMakeFiles/button.dir/HandleEvents.cpp.obj	70b52bb6216f364a
+321	935	7900020053291793	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+935	1095	7900020059497754	button.exe	9a00933e1063eaa2
+34	71	7900028923862152	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+103	262	7900028924552955	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+282	318	7900028926412600	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+282	318	7900028926412600	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+282	318	7900028926412600	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+282	318	7900028926412600	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+282	318	7900028926412600	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+282	318	7900028926412600	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+319	1155	7900028926757687	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+1155	1394	7900028935146086	button.exe	9a00933e1063eaa2
+34	68	7900030019456963	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4
+100	273	7900030020094402	CMakeFiles/button.dir/Game.cpp.obj.ddi	98d9c90b4d947635
+105	281	7900030020249539	CMakeFiles/button.dir/Boutton.cpp.obj.ddi	fcff84324f8dbf6f
+284	318	7900030022004726	CMakeFiles/button.dir/CXX.dd	d1f26c1d7ad10572
+284	318	7900030022004726	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir/CXXModules.json	d1f26c1d7ad10572
+284	318	7900030022004726	CMakeFiles/button.dir/main.cpp.obj.modmap	d1f26c1d7ad10572
+284	318	7900030022004726	CMakeFiles/button.dir/HandleEvents.cpp.obj.modmap	d1f26c1d7ad10572
+284	318	7900030022004726	CMakeFiles/button.dir/Game.cpp.obj.modmap	d1f26c1d7ad10572
+284	318	7900030022004726	CMakeFiles/button.dir/Boutton.cpp.obj.modmap	d1f26c1d7ad10572
+325	958	7900030022350427	CMakeFiles/button.dir/Boutton.cpp.obj	1095d01ef6dff5c2
+319	962	7900030022350427	CMakeFiles/button.dir/Game.cpp.obj	15991d5627a125e2
+962	1122	7900030028766620	button.exe	9a00933e1063eaa2
+33	66	7900031187988150	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	2444669f51f48dd4

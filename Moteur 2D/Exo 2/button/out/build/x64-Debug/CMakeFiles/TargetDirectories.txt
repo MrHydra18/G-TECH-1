@@ -1,0 +1,8 @@
+C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/button.dir
+C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-static.dir
+C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3_test.dir
+C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir
+C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/edit_cache.dir
+C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/rebuild_cache.dir

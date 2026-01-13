@@ -1,0 +1,9 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\button.dir\main.cpp.obj: dyndep
+
+build CMakeFiles\button.dir\HandleEvents.cpp.obj: dyndep
+
+build CMakeFiles\button.dir\Game.cpp.obj: dyndep
+
+build CMakeFiles\button.dir\Boutton.cpp.obj: dyndep
+

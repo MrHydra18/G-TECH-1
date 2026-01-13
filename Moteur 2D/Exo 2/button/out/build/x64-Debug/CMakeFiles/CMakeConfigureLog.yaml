@@ -1,0 +1,683 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilateur d'optimisation Microsoft (R) C/C++ version 19.38.33145 pour x64
+      Copyright (C) Microsoft Corporation. Tous droits réservés.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.38.33145.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Remarque : inclusion du fichier :  C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Remarque : inclusion du fichier :  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3b3nhu"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3b3nhu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3b3nhu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4fafc
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_4fafc.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_4fafc.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_4fafc.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_4fafc.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_4fafc.exe /implib:cmTC_4fafc.lib /pdb:cmTC_4fafc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilateur d'optimisation Microsoft (R) C/C++ version 19.38.33145 pour x64
+      Copyright (C) Microsoft Corporation. Tous droits réservés.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.38.33145.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:8 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Remarque : inclusion du fichier :  C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Remarque : inclusion du fichier :  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5i8bnt"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5i8bnt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5i8bnt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b6d43
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_b6d43.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_b6d43.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_b6d43.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_b6d43.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_b6d43.exe /implib:cmTC_b6d43.lib /pdb:cmTC_b6d43.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:8 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcpu.cmake:95 (try_compile)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:82 (SDL_DetectTargetCPUArchitectures)"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9e298
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_9e298.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_9e298.dir\\cmTC_9e298.pdb /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\lib.exe" /nologo /machine:x64 /out:cmTC_9e298.lib CMakeFiles\\cmTC_9e298.dir\\SDL_detect_arch.c.obj && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/PreseedMSVCCache.cmake:3 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:433 (SDL_Preseed_CMakeCache)"
+    checks:
+      - "Performing Test CAN_PRESEED"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7q468e"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7q468e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "CAN_PRESEED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7q468e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_69857
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCAN_PRESEED  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_69857.dir\\src.c.obj /FdCMakeFiles\\cmTC_69857.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7q468e\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_69857.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_69857.dir\\src.c.obj  /out:cmTC_69857.exe /implib:cmTC_69857.lib /pdb:cmTC_69857.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/macros.cmake:304 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:516 (check_linker_supports_version_file)"
+    checks:
+      - "Performing Test HAVE_WL_VERSION_SCRIPT"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2x440k"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2x440k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_WL_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2x440k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_03d19
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE_WL_VERSION_SCRIPT  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_03d19.dir\\src.c.obj /FdCMakeFiles\\cmTC_03d19.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2x440k\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_03d19.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_03d19.dir\\src.c.obj  /out:cmTC_03d19.exe /implib:cmTC_03d19.lib /pdb:cmTC_03d19.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  "-Wl,--version-script=C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/dummy.sym"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:710 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n0zhv0"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n0zhv0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n0zhv0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f8851
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f8851.dir\\src.c.obj /FdCMakeFiles\\cmTC_f8851.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-n0zhv0\\src.c"
+        FAILED: CMakeFiles/cmTC_f8851.dir/src.c.obj 
+        "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f8851.dir\\src.c.obj /FdCMakeFiles\\cmTC_f8851.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-n0zhv0\\src.c"
+        C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-n0zhv0\\src.c(15): error C2440: '=' : impossible de convertir de 'int' en '__m64'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:731 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fhpyjd"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fhpyjd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fhpyjd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_417fe
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_SSE  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_417fe.dir\\src.c.obj /FdCMakeFiles\\cmTC_417fe.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fhpyjd\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_417fe.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_417fe.dir\\src.c.obj  /out:cmTC_417fe.exe /implib:cmTC_417fe.lib /pdb:cmTC_417fe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:752 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ocq04c"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ocq04c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ocq04c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_93677
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_SSE2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_93677.dir\\src.c.obj /FdCMakeFiles\\cmTC_93677.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ocq04c\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_93677.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_93677.dir\\src.c.obj  /out:cmTC_93677.exe /implib:cmTC_93677.lib /pdb:cmTC_93677.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:773 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nlokzr"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nlokzr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nlokzr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_efc00
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_SSE3  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_efc00.dir\\src.c.obj /FdCMakeFiles\\cmTC_efc00.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-nlokzr\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_efc00.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_efc00.dir\\src.c.obj  /out:cmTC_efc00.exe /implib:cmTC_efc00.lib /pdb:cmTC_efc00.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:794 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ep0001"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ep0001"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ep0001'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_beea2
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_SSE4_1  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_beea2.dir\\src.c.obj /FdCMakeFiles\\cmTC_beea2.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ep0001\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_beea2.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_beea2.dir\\src.c.obj  /out:cmTC_beea2.exe /implib:cmTC_beea2.lib /pdb:cmTC_beea2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:815 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qq1l8r"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qq1l8r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qq1l8r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_847f2
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_SSE4_2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_847f2.dir\\src.c.obj /FdCMakeFiles\\cmTC_847f2.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qq1l8r\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_847f2.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_847f2.dir\\src.c.obj  /out:cmTC_847f2.exe /implib:cmTC_847f2.lib /pdb:cmTC_847f2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:833 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2hyyg4"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2hyyg4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2hyyg4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_74789
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_AVX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_74789.dir\\src.c.obj /FdCMakeFiles\\cmTC_74789.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2hyyg4\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_74789.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_74789.dir\\src.c.obj  /out:cmTC_74789.exe /implib:cmTC_74789.lib /pdb:cmTC_74789.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:854 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-68in0y"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-68in0y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-68in0y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f556c
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_AVX2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f556c.dir\\src.c.obj /FdCMakeFiles\\cmTC_f556c.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-68in0y\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_f556c.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f556c.dir\\src.c.obj  /out:cmTC_f556c.exe /implib:cmTC_f556c.lib /pdb:cmTC_f556c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcompilers.cmake:180 (check_c_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:875 (check_x86_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fqgwny"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fqgwny"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fqgwny'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0a26c
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCOMPILER_SUPPORTS_AVX512F  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_0a26c.dir\\src.c.obj /FdCMakeFiles\\cmTC_0a26c.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fqgwny\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_0a26c.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0a26c.dir\\src.c.obj  /out:cmTC_0a26c.exe /implib:cmTC_0a26c.lib /pdb:cmTC_0a26c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1116 (check_symbol_exists)"
+    checks:
+      - "Looking for _copysign"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kru6ue"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kru6ue"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "LIBC_HAS__COPYSIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kru6ue'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_75439
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_75439.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_75439.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kru6ue\\CheckSymbolExists.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_75439.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_75439.dir\\CheckSymbolExists.c.obj  /out:cmTC_75439.exe /implib:cmTC_75439.lib /pdb:cmTC_75439.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1116 (check_symbol_exists)"
+    checks:
+      - "Looking for _fseeki64"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mcm5wd"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mcm5wd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "LIBC_HAS__FSEEKI64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mcm5wd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_da795
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_da795.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_da795.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-mcm5wd\\CheckSymbolExists.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_da795.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_da795.dir\\CheckSymbolExists.c.obj  /out:cmTC_da795.exe /implib:cmTC_da795.lib /pdb:cmTC_da795.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:2238 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GAMEINPUT_H"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-msfhh1"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-msfhh1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_GAMEINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-msfhh1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_34d34
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE_GAMEINPUT_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_34d34.dir\\src.c.obj /FdCMakeFiles\\cmTC_34d34.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-msfhh1\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_34d34.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_34d34.dir\\src.c.obj  /out:cmTC_34d34.exe /implib:cmTC_34d34.lib /pdb:cmTC_34d34.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:2244 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_5.h"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w0ruge"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w0ruge"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_DXGI1_5_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w0ruge'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8fb64
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_8fb64.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8fb64.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-w0ruge\\CheckIncludeFile.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_8fb64.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_8fb64.dir\\CheckIncludeFile.c.obj  /out:cmTC_8fb64.exe /implib:cmTC_8fb64.lib /pdb:cmTC_8fb64.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:2245 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_6.h"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-stwgvn"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-stwgvn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-stwgvn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_55347
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_55347.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_55347.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-stwgvn\\CheckIncludeFile.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_55347.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_55347.dir\\CheckIncludeFile.c.obj  /out:cmTC_55347.exe /implib:cmTC_55347.lib /pdb:cmTC_55347.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:2252 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MFAPI_H"
+    directories:
+      source: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8zg9nb"
+      binary: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8zg9nb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_MFAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8zg9nb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_98bea
+        [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE_MFAPI_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_98bea.dir\\src.c.obj /FdCMakeFiles\\cmTC_98bea.dir\\ /FS -c "C:\\Users\\icotvaquero\\Documents\\GitHub\\G-TECH-1\\Moteur 2D\\Exo 2\\button\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8zg9nb\\src.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1938 --intdir=CMakeFiles\\cmTC_98bea.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_98bea.dir\\src.c.obj  /out:cmTC_98bea.exe /implib:cmTC_98bea.lib /pdb:cmTC_98bea.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

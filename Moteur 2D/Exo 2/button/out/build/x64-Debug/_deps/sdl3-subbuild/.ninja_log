@@ -1,0 +1,37 @@
+# ninja log v6
+406	484	7899971386202568	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete	c930418ef96cc806
+3	62	7899964215907079	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	51e52b6cecde4ed6
+3	62	7899964215907079	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	51e52b6cecde4ed6
+62	47355	7899964688841372	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	846b0fe03d747beb
+62	47355	7899964688841372	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	846b0fe03d747beb
+4	131	7899971381436865	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	f2edb4ad962753c9
+131	189	7899971383178939	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	deb5c2f9494d5354
+131	189	7899971383178939	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	deb5c2f9494d5354
+4	131	7899971381436865	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	f2edb4ad962753c9
+190	243	7899971383811994	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	b3862bb3d996de1b
+243	299	7899971384309878	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	9b683f877d8890cd
+190	243	7899971383811994	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	b3862bb3d996de1b
+406	484	7899971386202568	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	c930418ef96cc806
+243	299	7899971384309878	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	9b683f877d8890cd
+299	354	7899971384920223	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	17eff1c1022e2ccb
+299	354	7899971384920223	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	17eff1c1022e2ccb
+354	406	7899971385400586	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	4d1417ee7d39f31c
+354	406	7899971385400586	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	4d1417ee7d39f31c
+406	484	7899971386202568	CMakeFiles/sdl3-populate-complete	c930418ef96cc806
+406	484	7899971386202568	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	c930418ef96cc806
+3	142	7899971501082259	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	f2edb4ad962753c9
+3	142	7899971501082259	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	f2edb4ad962753c9
+142	198	7899971502879509	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	deb5c2f9494d5354
+142	198	7899971502879509	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	deb5c2f9494d5354
+198	253	7899971503530779	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	b3862bb3d996de1b
+198	253	7899971503530779	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	b3862bb3d996de1b
+253	307	7899971504031188	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	9b683f877d8890cd
+253	307	7899971504031188	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	9b683f877d8890cd
+307	366	7899971504579024	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	17eff1c1022e2ccb
+307	366	7899971504579024	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	17eff1c1022e2ccb
+367	423	7899971505215609	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	4d1417ee7d39f31c
+367	423	7899971505215609	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	4d1417ee7d39f31c
+423	494	7899971505866185	CMakeFiles/sdl3-populate-complete	c930418ef96cc806
+423	494	7899971505866185	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	c930418ef96cc806
+423	494	7899971505866185	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete	c930418ef96cc806
+423	494	7899971505866185	C:/Users/icotvaquero/Documents/GitHub/G-TECH-1/Moteur 2D/Exo 2/button/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	c930418ef96cc806
