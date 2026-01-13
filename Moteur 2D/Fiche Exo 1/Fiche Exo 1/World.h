@@ -8,9 +8,10 @@
 
 class World
 {
-	std::vector<std::unique_ptr<Entity>> things;
+	std::vector<Entity*> things;
 
 public:
+
 
 	void Init();
 	void Step();
