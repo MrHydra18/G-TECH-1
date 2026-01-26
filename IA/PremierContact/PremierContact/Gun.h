@@ -18,7 +18,7 @@ private:
 
 	int m_Bullets;
 	int m_MaxBullets;
-	int Delay;
+	int m_Delay;
 	float m_StartTimer = 0.0f;
 	State m_CurrentState = State::Idle;
 	int m_Transitions[3][3] =
@@ -31,7 +31,7 @@ private:
 
 public:
 
-	Gun(int Bulllets, int MaxBullets, int delay) : m_Bullets(Bulllets), m_MaxBullets(MaxBullets), Delay(delay) {}
+	Gun(int Bulllets, int MaxBullets, int delay) : m_Bullets(Bulllets), m_MaxBullets(MaxBullets), m_Delay(delay) {}
 
 	void Update(float DeltaTime);
 	bool Shoot();

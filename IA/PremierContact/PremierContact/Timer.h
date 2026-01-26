@@ -13,7 +13,6 @@ public:
 	Timer() {};
 
 	float GetCurrentTime();
-
 	float Start();
 
 	float End();

@@ -9,6 +9,7 @@ int main()
 
 	bool isPlaying = true;
 
+
     while (isPlaying)
     {
         std::cout << "Press S to Shoot, R to reload and Q to quit.\n";

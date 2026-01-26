@@ -1,31 +1,34 @@
 #include "Gun.h"
+#include"Timer.h"
 #include<Windows.h>
 
 void Gun::Update(float DeltaTime)
 {
 	m_StartTimer += DeltaTime;
 
+	if (m_StartTimer >= m_Delay)
+	{
+		m_CurrentState = State::Idle;
+		m_StartTimer = 0;
+	}
+
 	switch (m_CurrentState)
 	{
 	case (State::Idle):
-		system("cls");
 		std::cout << "State: Idle" << "| Ammo: " << m_Bullets << "/" << m_MaxBullets << "| Progress: " << m_StartTimer << std::endl;
-		Sleep(Delay);
+		Sleep(m_Delay);
 		break;
 
 	case (State::Reloading):
-		system("cls");
 		std::cout << "State: Reloading" << "| Ammo: " << m_Bullets << "/" << m_MaxBullets << "| Progress: " << m_StartTimer << std::endl;
-		Sleep(Delay);
+		Sleep(m_Delay);
 		break;
 
 	case (State::Shooting):
-		system("cls");
-		std::cout << "State: Reloading" << "| Ammo: " << m_Bullets << "/" << m_MaxBullets << "| Progress: " << m_StartTimer << std::endl;
-		Sleep(Delay);
+		std::cout << "State: Shooting" << "| Ammo: " << m_Bullets << "/" << m_MaxBullets << "| Progress: " << m_StartTimer << std::endl;
+		Sleep(m_Delay);
 		break;
 	}
-	
 }
 
 bool Gun::Shoot()
@@ -39,8 +42,7 @@ bool Gun::Shoot()
 	m_Bullets--;
 	std::cout << "Bang! Ammo : " << m_Bullets << "/" << m_MaxBullets << std::endl;
 
-	m_StartTimer = 0.0f;
-	SetState(State::Shooting);
+	SetState(State::Idle);
 
 	return true;
 }
@@ -55,8 +57,7 @@ bool Gun::Reload()
 
 	std::cout << "Reloading...\n";
 	m_Bullets = m_MaxBullets;
-	m_StartTimer = 0.0f;
-	SetState(State::Reloading);
+	SetState(State::Idle);
 
 	return true;
 }
