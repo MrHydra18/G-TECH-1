@@ -5,7 +5,7 @@
 void Gun::Update(float DeltaTime)
 {
 	m_StartTimer += DeltaTime;
-
+	std::cout << DeltaTime << std::endl;
 	if (m_StartTimer >= m_Delay)
 	{
 		m_CurrentState = State::Idle;
