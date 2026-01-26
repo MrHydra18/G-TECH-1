@@ -1,0 +1,127 @@
+﻿  Alan.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Alan.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Alan.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/Alan.cpp')
+  
+  AssetsManager.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\AssetsManager.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\AssetsManager.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/AssetsManager.cpp')
+  
+  AudioManager.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\AudioManager.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\AudioManager.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/AudioManager.cpp')
+  
+  BasicBullet.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\BasicBullet.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\BasicBullet.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/BasicBullet.cpp')
+  
+  BonBon.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\BonBon.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\BonBon.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/BonBon.cpp')
+  
+  ConfirmationMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\ConfirmationMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\ConfirmationMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/ConfirmationMenu.cpp')
+  
+  CreditsMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\CreditsMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\CreditsMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/CreditsMenu.cpp')
+  
+  Enemy.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Enemy.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Enemy.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/Enemy.cpp')
+  
+  Entity.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Entity.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Entity.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/Entity.cpp')
+  
+  ExplosiveMissile.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\ExplosiveMissile.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\ExplosiveMissile.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/ExplosiveMissile.cpp')
+  
+  game.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\game.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\game.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/game.cpp')
+  
+  GameOverMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\GameOverMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\GameOverMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/GameOverMenu.cpp')
+  
+  GuidedMissile.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\GuidedMissile.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\GuidedMissile.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/GuidedMissile.cpp')
+  
+  InputManager.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\InputManager.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\InputManager.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/InputManager.cpp')
+  
+  Item.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Item.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Item.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/Item.cpp')
+  
+  LaserBeam.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\LaserBeam.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\LaserBeam.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/LaserBeam.cpp')
+  
+  LevelCrationMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\LevelCrationMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\LevelCrationMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/LevelCrationMenu.cpp')
+  
+  LevelManager.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\LevelManager.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\LevelManager.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/LevelManager.cpp')
+  
+  Lips.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Lips.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Lips.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/Lips.cpp')
+  
+  main.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\main.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\main.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/main.cpp')
+  
+  Génération de code en cours...
+  Compilation en cours...
+  MainMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\MainMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\MainMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/MainMenu.cpp')
+  
+  Mickael.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Mickael.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Mickael.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/Mickael.cpp')
+  
+  Mine.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Mine.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Mine.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/Mine.cpp')
+  
+  ParalaxManager.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\ParalaxManager.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\ParalaxManager.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/ParalaxManager.cpp')
+  
+  PauseMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\PauseMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\PauseMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/PauseMenu.cpp')
+  
+  SelectionMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\SelectionMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\SelectionMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/SelectionMenu.cpp')
+  
+  ShopMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\ShopMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\ShopMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/ShopMenu.cpp')
+  
+  SpaceShip.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\SpaceShip.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\SpaceShip.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/SpaceShip.cpp')
+  
+  UIManager.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\UIManager.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\UIManager.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/UIManager.cpp')
+  
+  Vaisseau.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Vaisseau.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\Vaisseau.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/Vaisseau.cpp')
+  
+  WinMenu.cpp
+C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\WinMenu.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\Shoot em up\ide\src\ShootThemUp\WinMenu.cpp' : No such file or directory
+  (compiler le fichier source '../src/ShootThemUp/WinMenu.cpp')
+  
+  Génération de code en cours...
