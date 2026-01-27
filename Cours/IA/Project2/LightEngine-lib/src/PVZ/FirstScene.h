@@ -4,13 +4,16 @@
 #include "Scene.h"
 
 class Plant;
-class Zombi;
+class Zombie;
 
 class FirstScene : public Scene
 {
 	Plant* plant1;
-	Zombi* zombi1;
+	Zombie* zombie1;
 
+private:
+	void TrySetSelectedEntity(Plant* pEntity, int x, int y);
+	void TrySetSelectedEntity(Zombie* pEntity, int x, int y);
 
 public:
 	void OnInitialize() override;

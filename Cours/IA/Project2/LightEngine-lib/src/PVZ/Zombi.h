@@ -3,7 +3,7 @@
 #include<iostream>
 
 
-class Zombi : public Entity
+class Zombie : public Entity
 {
 public:
 	void OnCollision(Entity* other) override;
