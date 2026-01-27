@@ -1,51 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
-  <ItemGroup>
-    <Filter Include="header">
-      <UniqueIdentifier>{0DD53419-B5D7-49D2-8044-AB3CA320B0C7}</UniqueIdentifier>
-      <Extensions>h;hpp</Extensions>
-    </Filter>
-    <Filter Include="resource">
-      <UniqueIdentifier>{679FD198-9128-4C5A-AFF3-56C026524795}</UniqueIdentifier>
-      <Extensions>hlsl;jpg;jpeg;png;wav;mp3;ico;dds;rc;obj</Extensions>
-    </Filter>
-    <Filter Include="source">
-      <UniqueIdentifier>{4C19D981-AC40-4107-B41F-C8F874366CB4}</UniqueIdentifier>
-      <Extensions>cpp;c</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\src\PVZ\main.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\PVZ\pch.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\..\src\PVZ\main.h">
-      <Filter>header</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\PVZ\pch.h">
-      <Filter>header</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\PVZ\resource.h">
-      <Filter>header</Filter>
-    </ClInclude>
-    <None Include="..\..\..\src\PVZ\app.ico">
-      <Filter>resource</Filter>
-    </None>
-    <None Include="..\..\..\src\PVZ\app.rc">
-      <Filter>resource</Filter>
-    </None>
-    <None Include="..\..\..\src\PVZ\small.ico">
-      <Filter>resource</Filter>
-    </None>
-    <ClCompile Include="Character.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Character.h">
-      <Filter>header</Filter>
-    </ClInclude>
-  </ItemGroup>
+    <ItemGroup>
+        <Filter Include="header">
+            <UniqueIdentifier>{E3702597-286A-4E5F-B6D8-EB3E7C5C2B2B}</UniqueIdentifier>
+            <Extensions>h;hpp</Extensions>
+        </Filter>
+        <Filter Include="resource">
+            <UniqueIdentifier>{CB645E3C-6FFA-4C88-82E8-39683678ED5B}</UniqueIdentifier>
+            <Extensions>hlsl;jpg;jpeg;png;wav;mp3;ico;dds;rc;obj</Extensions>
+        </Filter>
+        <Filter Include="source">
+            <UniqueIdentifier>{0E238A15-7BC3-4CC1-8187-D03453D07E6E}</UniqueIdentifier>
+            <Extensions>cpp;c</Extensions>
+        </Filter>
+    </ItemGroup>
+    <ItemGroup>
+        <ClCompile Include="..\..\..\src\PVZ\FirstScene.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\main.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\Plant.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\Zombi.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClInclude Include="..\..\..\src\PVZ\FirstScene.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\main.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\Plant.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\resource.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\Zombi.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <None Include="..\..\..\src\PVZ\app.ico">
+            <Filter>resource</Filter>
+        </None>
+        <None Include="..\..\..\src\PVZ\app.rc">
+            <Filter>resource</Filter>
+        </None>
+        <None Include="..\..\..\src\PVZ\small.ico">
+            <Filter>resource</Filter>
+        </None>
+    </ItemGroup>
 </Project>
