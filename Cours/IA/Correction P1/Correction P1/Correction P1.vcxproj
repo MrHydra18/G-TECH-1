@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gun.cpp" />
+    <ClCompile Include="GunState.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="StateBase.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gun.h" />
+    <ClInclude Include="GunState.h" />
+    <ClInclude Include="StateBase.h" />
+    <ClInclude Include="StateMachine.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
