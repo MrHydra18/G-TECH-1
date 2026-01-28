@@ -2,19 +2,22 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
     <ItemGroup>
         <Filter Include="header">
-            <UniqueIdentifier>{17F131C9-C0EC-4997-B702-50B3E609EC02}</UniqueIdentifier>
+            <UniqueIdentifier>{745D8B96-D6FC-455A-9A77-30A3BA7B1A32}</UniqueIdentifier>
             <Extensions>h;hpp</Extensions>
         </Filter>
         <Filter Include="resource">
-            <UniqueIdentifier>{AC6980BC-ABF1-4598-B78F-E55A84D0A73D}</UniqueIdentifier>
+            <UniqueIdentifier>{4DD12C24-B4CC-4104-B972-BF266A1A5D82}</UniqueIdentifier>
             <Extensions>hlsl;jpg;jpeg;png;wav;mp3;ico;dds;rc;obj</Extensions>
         </Filter>
         <Filter Include="source">
-            <UniqueIdentifier>{FF3031C7-2D72-4EB3-A8D1-1782E42FE6ED}</UniqueIdentifier>
+            <UniqueIdentifier>{5F847B5E-E336-40C2-A330-7C0DB08A54F7}</UniqueIdentifier>
             <Extensions>cpp;c</Extensions>
         </Filter>
     </ItemGroup>
     <ItemGroup>
+        <ClCompile Include="..\..\..\src\PVZ\Bullet.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
         <ClCompile Include="..\..\..\src\PVZ\FirstScene.cpp">
             <Filter>source</Filter>
         </ClCompile>
@@ -27,6 +30,9 @@
         <ClCompile Include="..\..\..\src\PVZ\Zombi.cpp">
             <Filter>source</Filter>
         </ClCompile>
+        <ClInclude Include="..\..\..\src\PVZ\Bullet.h">
+            <Filter>header</Filter>
+        </ClInclude>
         <ClInclude Include="..\..\..\src\PVZ\FirstScene.h">
             <Filter>header</Filter>
         </ClInclude>

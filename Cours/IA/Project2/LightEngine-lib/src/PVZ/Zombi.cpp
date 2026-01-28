@@ -3,5 +3,14 @@
 
 void Zombie::OnCollision(Entity* other)
 {
-	std::cout << "DummyEntity::OnCollision" << std::endl;
+	if (other->IsTag(1) || other->IsTag(2))
+		Destroy();
+	else
+		return;
+}
+
+
+void Zombie::OnInitialize()
+{
+	SetTag(0);
 }

@@ -13,7 +13,7 @@
     <PropertyGroup Label="Globals">
         <VCProjectVersion>17.0</VCProjectVersion>
         <Keyword>Win32Proj</Keyword>
-        <ProjectGuid>{841840CA-FA80-4254-A28C-57023D6C7467}</ProjectGuid>
+        <ProjectGuid>{A455BA1C-CE1E-41CE-865B-10FF38CC46F4}</ProjectGuid>
         <RootNamespace>PVZ</RootNamespace>
         <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     </PropertyGroup>
@@ -94,12 +94,14 @@
         </Link>
     </ItemDefinitionGroup>
     <ItemGroup>
+        <ClCompile Include="..\..\..\src\PVZ\Bullet.cpp"/>
         <ClCompile Include="..\..\..\src\PVZ\FirstScene.cpp"/>
         <ClCompile Include="..\..\..\src\PVZ\main.cpp"/>
         <ClCompile Include="..\..\..\src\PVZ\Plant.cpp"/>
         <ClCompile Include="..\..\..\src\PVZ\Zombi.cpp"/>
     </ItemGroup>
     <ItemGroup>
+        <ClInclude Include="..\..\..\src\PVZ\Bullet.h"/>
         <ClInclude Include="..\..\..\src\PVZ\FirstScene.h"/>
         <ClInclude Include="..\..\..\src\PVZ\main.h"/>
         <ClInclude Include="..\..\..\src\PVZ\Plant.h"/>

@@ -8,12 +8,12 @@ class Zombie;
 
 class FirstScene : public Scene
 {
-	Plant* plant1;
-	Zombie* zombie1;
+
+	int nb_lanes = 4;
 
 private:
-	void TrySetSelectedEntity(Plant* pEntity, int x, int y);
-	void TrySetSelectedEntity(Zombie* pEntity, int x, int y);
+	void TrySetSelectedEntity(Plant* pEntity, int x, int y) {}
+	void TrySetSelectedEntity(Zombie* pEntity, int x, int y) {}
 
 public:
 	void OnInitialize() override;
