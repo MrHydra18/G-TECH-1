@@ -13,7 +13,7 @@
     <PropertyGroup Label="Globals">
         <VCProjectVersion>17.0</VCProjectVersion>
         <Keyword>Win32Proj</Keyword>
-        <ProjectGuid>{2E083BAA-3A7D-439D-B782-19C39FB0A465}</ProjectGuid>
+        <ProjectGuid>{4CD0E1F3-71E7-4F2B-B5F1-15A60A6F8424}</ProjectGuid>
         <RootNamespace>LightEngine</RootNamespace>
         <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     </PropertyGroup>
