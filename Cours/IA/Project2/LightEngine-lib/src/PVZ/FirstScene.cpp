@@ -1,11 +1,11 @@
 #include "FirstScene.h"
 #include"Plant.h"
+#include"PlantState.h"
 #include "Bullet.h"
 #include"Zombi.h"
 
 void FirstScene::OnInitialize()
 {
-
 	int lane = GetWindowHeight() / nb_lanes / 2;
 	
 	for (int i = 0; i < nb_lanes; ++i)
@@ -28,9 +28,8 @@ void FirstScene::OnEvent(const sf::Event& event)
 		zombie->SetPosition(GetWindowWidth() + zombie->GetRadius() - 1, lane * GetWindowHeight() / nb_lanes + GetWindowHeight() / nb_lanes / 2);
 		zombie->SetDirection(-1, 0, 200);
 
-		Bullet* bullet = CreateEntity<Bullet>(GetWindowHeight() / (nb_lanes * 15), sf::Color::Magenta);
-		bullet->SetPosition(150, lane * GetWindowHeight() / nb_lanes + GetWindowHeight() / nb_lanes / 2);
-		bullet->SetDirection(1, 0, 200);
+		Plant plant;
+		plant.TryTransitionTo(Plant::State::Shooting);
 	}
 }
 
