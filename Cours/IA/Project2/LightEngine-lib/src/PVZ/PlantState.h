@@ -7,7 +7,7 @@ class Plant;
 class IdlePlantState : public StateBase<Plant>
 {
 public:
-	void Start(Plant* plant) override {};
+	void Start(Plant* plant) override;
 	void Update(Plant* plant, float dt) override {};
 	void End(Plant* plant) override {};
 	bool CanTransitionFrom(Plant* plant, int currentState) override;

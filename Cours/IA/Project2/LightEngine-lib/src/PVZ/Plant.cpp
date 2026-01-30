@@ -2,7 +2,7 @@
 #include "Bullet.h"
 #include "PlantState.h"
 
-Plant::Plant()
+Plant::Plant() : m_lane(0)
 {
 	m_stateMachine.Add(new IdlePlantState());
 	m_stateMachine.Add(new ShootingPlantState());
@@ -29,13 +29,14 @@ void Plant::Shoot()
 {
 	FirstScene* scene = GetScene<FirstScene>();
 
-	int lane = scene->GetWindowHeight() / scene->nb_lanes / 2;
+	float laneHeight = scene->GetWindowHeight() / (float)scene->nb_lanes;
+	float bulletY = m_lane * laneHeight + laneHeight / 2;
 
-	Bullet* bullet = CreateEntity<Bullet>(scene->GetWindowHeight() / (scene->nb_lanes * 15), sf::Color::Magenta);
-	bullet->SetPosition(150, lane * scene->GetWindowHeight() / scene->nb_lanes + scene->GetWindowHeight() / scene->nb_lanes / 2);
+	Bullet* bullet = CreateEntity<Bullet>((scene->GetWindowHeight() / (scene->nb_lanes * 15)), sf::Color::Magenta);
+	bullet->SetPosition(150, bulletY);
 	bullet->SetDirection(1, 0, 200);
 
-	std::cout << "Transition to shooting \n";
+	std::cout << "Transition to Shooting\n";
 
 	TryTransitionTo(State::Idle);
 }

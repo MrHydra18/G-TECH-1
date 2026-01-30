@@ -13,6 +13,11 @@ bool IdlePlantState::CanTransitionFrom(Plant* plant, int currentState)
 	return true;
 }
 
+void IdlePlantState::Start(Plant* plant)
+{
+	std::cout << "State Idle\n";
+}
+
 void ShootingPlantState::Start(Plant* plant)
 {
 	m_timer = m_duration;

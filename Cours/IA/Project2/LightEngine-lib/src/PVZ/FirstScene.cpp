@@ -7,14 +7,15 @@
 void FirstScene::OnInitialize()
 {
 	int lane = GetWindowHeight() / nb_lanes / 2;
-	
+
 	for (int i = 0; i < nb_lanes; ++i)
 	{
 		Plant* plant = CreateEntity<Plant>(50, sf::Color::Green);
 		plant->SetPosition(100, lane);
+		plant->SetLane(i);
+		m_plants.push_back(plant);
 		lane += GetWindowHeight() / nb_lanes;
 	}
-
 }
 
 
@@ -28,8 +29,14 @@ void FirstScene::OnEvent(const sf::Event& event)
 		zombie->SetPosition(GetWindowWidth() + zombie->GetRadius() - 1, lane * GetWindowHeight() / nb_lanes + GetWindowHeight() / nb_lanes / 2);
 		zombie->SetDirection(-1, 0, 200);
 
-		Plant plant;
-		plant.TryTransitionTo(Plant::State::Shooting);
+		for (auto* plant : m_plants)
+		{
+			if (plant && plant->GetLane() == lane)
+			{
+				plant->TryTransitionTo(Plant::State::Shooting);
+				break;
+			}
+		}
 	}
 }
 

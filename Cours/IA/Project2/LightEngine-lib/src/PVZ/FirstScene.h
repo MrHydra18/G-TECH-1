@@ -10,6 +10,7 @@ class FirstScene : public Scene
 {
 
 	int nb_lanes = 4;
+	std::vector<Plant*> m_plants;
 
 private:
 	void TrySetSelectedEntity(Plant* pEntity, int x, int y) {}

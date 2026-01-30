@@ -22,6 +22,7 @@ public:
 private:
 
 	StateMachine<Plant> m_stateMachine;
+	int m_lane;
 
 
 public:
@@ -37,7 +38,8 @@ public:
 	void TryTransitionTo(State state);
 	void OnCollision(Entity* other) override;
 	void OnInitialize() override;
-
+	void SetLane(int lane) { m_lane = lane; }
+	int GetLane() const { return m_lane; }
 
 	friend class IdleGunState;
 	friend class ShootingGunState;
