@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+    <ItemGroup>
+        <Filter Include="header">
+            <UniqueIdentifier>{05E7EE40-A13A-4E3E-915E-478C4340436B}</UniqueIdentifier>
+            <Extensions>h;hpp</Extensions>
+        </Filter>
+        <Filter Include="resource">
+            <UniqueIdentifier>{AC6B9D4B-0BCF-45C0-A6A5-B94D576DFDB1}</UniqueIdentifier>
+            <Extensions>hlsl;jpg;jpeg;png;wav;mp3;ico;dds;rc;obj</Extensions>
+        </Filter>
+        <Filter Include="source">
+            <UniqueIdentifier>{C2CEA01A-937F-488E-BB6B-9C34F378C85B}</UniqueIdentifier>
+            <Extensions>cpp;c</Extensions>
+        </Filter>
+    </ItemGroup>
+    <ItemGroup>
+        <ClCompile Include="..\..\..\src\PVZ\main.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\Plant.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\Projectile.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\PvZScene.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\StateBase.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\StateMachine.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\PVZ\Zombie.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+        <ClInclude Include="..\..\..\src\PVZ\Plant.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\Projectile.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\PvZScene.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\StateBase.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\StateMachine.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\PVZ\Zombie.h">
+            <Filter>header</Filter>
+        </ClInclude>
+        <None Include="..\..\..\src\PVZ\app.ico">
+            <Filter>resource</Filter>
+        </None>
+        <None Include="..\..\..\src\PVZ\app.rc">
+            <Filter>resource</Filter>
+        </None>
+    </ItemGroup>
+</Project>
