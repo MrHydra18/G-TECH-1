@@ -1,0 +1,27 @@
+# Visual Studio temp files
+ide/.vs/
+ide/**/x64/
+ide/**/Debug/
+ide/**/Release/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Build outputs
+*.obj
+*.pdb
+*.ilk
+*.log
+*.idb
+*.ipch
+*.tlog
+
+# Executables (keep DLLs in bin/ for SDL2)
+ide/**/*.exe
+
+# User-specific files
+*.user
+.vs/

@@ -1,0 +1,136 @@
+{
+  "projects": {
+    "2DE04CBF-59DB-0ECF-4EC7-575375877FD1": {
+      "config-debug": {
+        "additionalDependencies": [
+          "SDL2.lib",
+          "SDL2main.lib",
+          "SDL2_image.lib"
+        ],
+        "additionalIncludeDirectories": [
+          "../../lib/SDL2/include",
+          "../../lib/SDL2_image/include"
+        ],
+        "additionalLibraryDirectories": [
+          "../../lib/SDL2/lib/x64",
+          "../../lib/SDL2_image/lib/x64"
+        ],
+        "preprocessorDefinitions": []
+      },
+      "config-release": {
+        "additionalDependencies": [
+          "SDL2.lib",
+          "SDL2main.lib",
+          "SDL2_image.lib"
+        ],
+        "additionalIncludeDirectories": [
+          "../../lib/SDL2/include",
+          "../../lib/SDL2_image/include"
+        ],
+        "additionalLibraryDirectories": [
+          "../../lib/SDL2/lib/x64",
+          "../../lib/SDL2_image/lib/x64"
+        ],
+        "preprocessorDefinitions": []
+      },
+      "dependencies": [ "4FA939A9-1A02-009D-4DCC-5B6C2A700F6B" ],
+      "dependents": [],
+      "name": "Game",
+      "property-lib": false,
+      "property-pch": false,
+      "property-vcpkg": false,
+      "property-window": false
+    },
+    "4F8241D4-54A0-18A5-6A4E-235B188B18A2": {
+      "config-debug": {
+        "additionalDependencies": [
+          "SDL2.lib",
+          "SDL2main.lib",
+          "SDL2_image.lib"
+        ],
+        "additionalIncludeDirectories": [
+          "../../lib/SDL2/include",
+          "../../lib/SDL2_image/include"
+        ],
+        "additionalLibraryDirectories": [
+          "../../lib/SDL2/lib/x64",
+          "../../lib/SDL2_image/lib/x64"
+        ],
+        "preprocessorDefinitions": []
+      },
+      "config-release": {
+        "additionalDependencies": [
+          "SDL2.lib",
+          "SDL2main.lib",
+          "SDL2_image.lib"
+        ],
+        "additionalIncludeDirectories": [
+          "../../lib/SDL2/include",
+          "../../lib/SDL2_image/include"
+        ],
+        "additionalLibraryDirectories": [
+          "../../lib/SDL2/lib/x64",
+          "../../lib/SDL2_image/lib/x64"
+        ],
+        "preprocessorDefinitions": []
+      },
+      "dependencies": [],
+      "dependents": [],
+      "name": "Lib2D",
+      "property-lib": true,
+      "property-pch": false,
+      "property-vcpkg": false,
+      "property-window": false
+    },
+    "4FA939A9-1A02-009D-4DCC-5B6C2A700F6B": {
+      "config-debug": {
+        "additionalDependencies": [
+          "SDL2.lib",
+          "SDL2main.lib",
+          "SDL2_image.lib"
+        ],
+        "additionalIncludeDirectories": [
+          "../../lib/SDL2/include",
+          "../../lib/SDL2_image/include"
+        ],
+        "additionalLibraryDirectories": [
+          "../../lib/SDL2/lib/x64",
+          "../../lib/SDL2_image/lib/x64"
+        ],
+        "preprocessorDefinitions": []
+      },
+      "config-release": {
+        "additionalDependencies": [
+          "SDL2.lib",
+          "SDL2main.lib",
+          "SDL2_image.lib"
+        ],
+        "additionalIncludeDirectories": [
+          "../../lib/SDL2/include",
+          "../../lib/SDL2_image/include"
+        ],
+        "additionalLibraryDirectories": [
+          "../../lib/SDL2/lib/x64",
+          "../../lib/SDL2_image/lib/x64"
+        ],
+        "preprocessorDefinitions": []
+      },
+      "dependencies": [ "4F8241D4-54A0-18A5-6A4E-235B188B18A2" ],
+      "dependents": [],
+      "name": "Engine2D",
+      "property-lib": true,
+      "property-pch": false,
+      "property-vcpkg": false,
+      "property-window": false
+    }
+  },
+  "projects_name_to_guid": {
+    "Engine2D": "4FA939A9-1A02-009D-4DCC-5B6C2A700F6B",
+    "Game": "2DE04CBF-59DB-0ECF-4EC7-575375877FD1",
+    "Lib2D": "4F8241D4-54A0-18A5-6A4E-235B188B18A2"
+  },
+  "solution_guid": "4F442418-26C4-1EB2-6CC5-7FEB318A71E4",
+  "solution_name": "Moteur2D",
+  "startup_project": "",
+  "version": "2.0"
+}

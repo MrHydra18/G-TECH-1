@@ -1,0 +1,31 @@
+{
+    "projects": {
+        "ShootThemUp": {
+            "additionalDependencies": [
+                "SDL2.lib",
+                "SDL2main.lib",
+                "SDL2_mixer.lib",
+                "SDL2_image.lib",
+                "SDL2_ttf.lib"
+            ],
+            "additionalIncludeDirectories": [
+                "$(SolutionDir)..\\libs\\SDL2\\include"
+            ],
+            "additionalLibraryDirectories": [
+                "$(SolutionDir)..\\libs\\SDL2\\lib\\x64"
+            ],
+            "dependencies": [],
+            "dependents": [],
+            "guid": "50997A13-4052-4341-205C-62812E2479B5",
+            "lib": false,
+            "pch": false,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": false
+        }
+    },
+    "solution_guid": "50A72563-3B73-5C27-3252-242F59EA1D73",
+    "solution_name": "ShootThemUpSolution",
+    "startup_project": "ShootThemUp",
+    "version": "1.17.4"
+}

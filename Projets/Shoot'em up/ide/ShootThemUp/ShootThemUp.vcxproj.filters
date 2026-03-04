@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup>
+        <Filter Include="Source Files">
+            <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+            <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+        </Filter>
+        <Filter Include="Header Files">
+            <UniqueIdentifier>{93995380-89BD-4B04-88EB-625FBE52EBFB}</UniqueIdentifier>
+            <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+        </Filter>
+        <Filter Include="Images">
+            <UniqueIdentifier>{6E901252-3135-5382-5769-143D295A57A6}</UniqueIdentifier>
+            <Extensions>png;jpg;jpeg;dds;bmp;tif;tiff;gif;ico;svg</Extensions>
+        </Filter>
+        <Filter Include="Resource Files">
+            <UniqueIdentifier>{67DA6AB6-F800-4C08-8B7A-83BB121AAD01}</UniqueIdentifier>
+            <Extensions>rc;cur;dlg;rc2;rct;bin;rgs;resx;wav;mfcribbon-ms</Extensions>
+        </Filter>
+    </ItemGroup>
+    <ItemGroup>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Alan.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\AssetsManager.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\AudioManager.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\BasicBullet.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\BonBon.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Bullet.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\ConfirmationMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\CreditsMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Enemy.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Entity.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\ExplosiveMissile.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\game.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\GameOverMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\gameState.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\GuidedMissile.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\InputManager.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Item.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\LaserBeam.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\LevelCrationMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\LevelManager.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Lips.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\MainMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Menu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Menus.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Mickael.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Mine.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\ParalaxManager.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\PauseMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\SelectionMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\ShopMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\SpaceShip.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\UIManager.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Vaisseau.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\Vector2D.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="$(SolutionDir)..\src\ShootThemUp\WinMenu.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+    </ItemGroup>
+    <ItemGroup>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\Alan.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\AssetsManager.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\AudioManager.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\BasicBullet.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\BonBon.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\ConfirmationMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\CreditsMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\Enemy.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\Entity.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\ExplosiveMissile.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\game.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\GameOverMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\GuidedMissile.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\InputManager.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\Item.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\LaserBeam.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\LevelCrationMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\LevelManager.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\Lips.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\main.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\MainMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\Mickael.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\Mine.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\ParalaxManager.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\PauseMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\SelectionMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\ShopMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\SpaceShip.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\UIManager.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\Vaisseau.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="$(SolutionDir)..\src\ShootThemUp\WinMenu.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+    </ItemGroup>
+    <ItemGroup>
+    </ItemGroup>
+    <ItemGroup>
+    </ItemGroup>
+</Project>

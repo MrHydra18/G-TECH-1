@@ -1,0 +1,6 @@
+timerStart: 0
+firstTeamColor: 0 255 0
+secondTeamColor: 255 0 0
+ballColor: 255 255 0
+drawLane: 1
+
