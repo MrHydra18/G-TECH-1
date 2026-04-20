@@ -25,9 +25,7 @@ public:
 		m_rect.y = (int)(y - m_rect.h * anchorY);
 	}
 
-	bool collision(SDL_Rect other);
-
-	static bool checkCollision(SDL_Rect a, SDL_Rect b);
+	bool collision(SDL_FRect other);
 
 	virtual void render(SDL_Renderer* renderer) = 0;
 	virtual void update(float deltaTime) = 0;

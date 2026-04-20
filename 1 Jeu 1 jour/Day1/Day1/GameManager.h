@@ -12,6 +12,18 @@ private:
 	bool isRunning = true;
 	std::vector<Entity*> entities;
 
+
+
+	int m_maxObstacles = 5;
+	float m_spawnInterval = 1.5f; 
+	float m_spawnTimer = 0.0f;
+	int m_obstacleCount = 0;
+
+	float m_elapsedTime = 0.0f;
+
+	void renderDigit(int digit, int x, int y, int w, int h);
+	void renderTime(float elapsed, int x, int y);
+
 public:
 
 	static GameManager& GetInstance()
