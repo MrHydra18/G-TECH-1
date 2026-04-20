@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+    <ItemGroup Label="ProjectConfigurations">
+        <ProjectConfiguration Include="Debug|x64">
+            <Configuration>Debug</Configuration>
+            <Platform>x64</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Release|x64">
+            <Configuration>Release</Configuration>
+            <Platform>x64</Platform>
+        </ProjectConfiguration>
+    </ItemGroup>
+    <PropertyGroup Label="Globals">
+        <VCProjectVersion>17.0</VCProjectVersion>
+        <Keyword>Win32Proj</Keyword>
+        <ProjectGuid>{269C7E0B-E20C-4575-AA73-EF9CF5113618}</ProjectGuid>
+        <RootNamespace>MiniStudio</RootNamespace>
+        <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    </PropertyGroup>
+    <PropertyGroup Label="Vcpkg">
+        <VcpkgEnable>false</VcpkgEnable>
+        <VcpkgEnableManifest>false</VcpkgEnableManifest>
+        <VcpkgManifestRoot>..\..\..\config\</VcpkgManifestRoot>
+        <VcpkgInstalledDir>.\vcpkg_installed\$(VcpkgTriplet)\</VcpkgInstalledDir>
+    </PropertyGroup>
+    <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;" Label="Configuration">
+        <ConfigurationType>Application</ConfigurationType>
+        <UseDebugLibraries>true</UseDebugLibraries>
+        <PlatformToolset>v143</PlatformToolset>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;" Label="Vcpkg">
+        <VcpkgConfiguration>Debug</VcpkgConfiguration>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;" Label="Configuration">
+        <ConfigurationType>Application</ConfigurationType>
+        <UseDebugLibraries>false</UseDebugLibraries>
+        <PlatformToolset>v143</PlatformToolset>
+        <CharacterSet>Unicode</CharacterSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;" Label="Vcpkg">
+        <VcpkgConfiguration>Release</VcpkgConfiguration>
+    </PropertyGroup>
+    <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+    <ImportGroup Label="ExtensionSettings"/>
+    <ImportGroup Label="Shared"/>
+    <ImportGroup Label="PropertySheets" Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">
+        <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" Label="LocalAppDataPlatform"/>
+    </ImportGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;">
+        <OutDir>$(ProjectDir)Build\$(Configuration)\</OutDir>
+        <IntDir>$(ProjectDir)Build\$(Configuration)\intermediate\</IntDir>
+    </PropertyGroup>
+    <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">
+        <OutDir>$(ProjectDir)Build\$(Configuration)\</OutDir>
+        <IntDir>$(ProjectDir)Build\$(Configuration)\intermediate\</IntDir>
+    </PropertyGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|x64&apos;">
+        <ClCompile>
+            <WarningLevel>Level3</WarningLevel>
+            <SDLCheck>true</SDLCheck>
+            <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);SFML_STATIC</PreprocessorDefinitions>
+            <ConformanceMode>true</ConformanceMode>
+            <PrecompiledHeader>NotUsing</PrecompiledHeader>
+            <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+            <LanguageStandard>stdcpp20</LanguageStandard>
+            <AdditionalIncludeDirectories>$(SolutionDir)../../SFML-2.5.1/include; $(SolutionDir)../../src/LightEngine </AdditionalIncludeDirectories>
+        </ClCompile>
+        <Link>
+            <SubSystem>Console</SubSystem>
+            <GenerateDebugInformation>true</GenerateDebugInformation>
+            <AdditionalLibraryDirectories>$(SolutionDir)../../SFML-2.5.1/lib; $(SolutionDir)../../ide/vs/LightEngine/Build/Debug</AdditionalLibraryDirectories>
+            <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-system-s-d.lib;freetype.lib;flac.lib;vorbis.lib;vorbisfile.lib;ogg.lib;opengl32.lib;glu32.lib;gdi32.lib;winmm.lib;dwmapi.lib;LightEngine.lib;openal32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;">
+        <ClCompile>
+            <WarningLevel>Level3</WarningLevel>
+            <SDLCheck>true</SDLCheck>
+            <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+            <ConformanceMode>true</ConformanceMode>
+            <PrecompiledHeader>Use</PrecompiledHeader>
+            <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+            <LanguageStandard>stdcpp20</LanguageStandard>
+        </ClCompile>
+        <Link>
+            <SubSystem>Console</SubSystem>
+            <GenerateDebugInformation>false</GenerateDebugInformation>
+            <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+        </Link>
+    </ItemDefinitionGroup>
+    <ItemGroup>
+        <ClCompile Include="..\..\..\src\MiniStudio\AmbiantShader.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\ArrowLogic.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\BatMovement.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\CheckZoneLogic.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\DeathMenuScene.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\DoorLogic.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\EndMenu.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\HealthBar.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\HypeBar.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\Inventory.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\KeyBinds.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\main.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\MainMenuScene.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\MusicChange.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\PauseScene.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\PlayerAnimationController.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\PlayerHealth.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\PlayerInteract.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\PlayerMovement.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\PlayerWalljump.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\RatMovement.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\RebindButton.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\RhythmSpawner.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\RythmeText.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\SettingsLoader.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\SettingsScene.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\Slider.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\SoundEffect.cpp"/>
+        <ClCompile Include="..\..\..\src\MiniStudio\StartScene.cpp"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ClInclude Include="..\..\..\src\MiniStudio\AmbiantShader.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\ArrowLogic.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\BatMovement.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\CheckZoneLogic.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\DeathMenuScene.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\DoorLogic.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\EndMenu.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\HealthBar.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\HypeBar.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\Inventory.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\KeyBinds.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\MainMenuScene.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\MusicChange.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\PauseScene.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\PlayerAnimationController.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\PlayerHealth.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\PlayerInteract.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\PlayerMovement.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\PlayerWalljump.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\RatMovement.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\RebindButton.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\RhythmSpawner.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\RythmeText.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\SettingsLoader.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\SettingsScene.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\SoundEffect.h"/>
+        <ClInclude Include="..\..\..\src\MiniStudio\StartScene.h"/>
+    </ItemGroup>
+    <ItemGroup/>
+    <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+    <ImportGroup Label="ExtensionTargets"/>
+</Project>

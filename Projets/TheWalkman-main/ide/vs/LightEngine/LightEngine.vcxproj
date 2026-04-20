@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{966B00E9-1AD5-478C-89A1-79FDF9641189}</ProjectGuid>
+    <RootNamespace>LightEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnable>false</VcpkgEnable>
+    <VcpkgEnableManifest>false</VcpkgEnableManifest>
+    <VcpkgManifestRoot>..\..\..\config\</VcpkgManifestRoot>
+    <VcpkgInstalledDir>.\vcpkg_installed\$(VcpkgTriplet)\</VcpkgInstalledDir>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Vcpkg">
+    <VcpkgConfiguration>Debug</VcpkgConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Vcpkg">
+    <VcpkgConfiguration>Release</VcpkgConfiguration>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)Build\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Build\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)Build\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Build\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);SFML_STATIC</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../include ; $(SolutionDir)../../SFML-2.5.1/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)../../SFML-2.5.1/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-system-s-d.lib;freetype.lib;flac.lib;vorbis.lib;vorbisfile.lib;ogg.lib;opengl32.lib;glu32.lib;gdi32.lib;winmm.lib;dwmapi.lib;openal32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\LightEngine\Animation.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\BoxCollider.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Button.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Camera.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\CircleCollider.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Collidable.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Collider.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\CollisionSystem.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Component.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\DataAsset.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\DataManager.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\DataSource.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Debug.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Drawable.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Entity.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\ExplorationTriggerLogic.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\FileDataSource.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\FixedUpdatable.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\FloatField.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\GameManager.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\ImageLayerRenderer.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\imgui-SFML.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\imgui.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\imgui_demo.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\imgui_draw.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\imgui_tables.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\IniFile.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Inspectable.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\ItemData.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Listener.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Managers\AssetsManager.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Managers\EventManager.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Managers\InputManager.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Managers\ShaderManager.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Music.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\PropAtlas.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\PropRenderer.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\RenderLayerComponent.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Rigidbody2D.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Savable.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Scene.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\SceneManager.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Slider.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Sound.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Sprite.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\StatField.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\StatsWindow.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\TagComponent.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\TextComponent.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\TiledUtils.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\TilemapLoader.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\TilemapRenderer.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\tinyxml2.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\TransformComponent.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Updatable.cpp" />
+    <ClCompile Include="..\..\..\src\LightEngine\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\LightEngine\AllComponent.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Animation.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\BoxCollider.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Button.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Camera.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\CircleCollider.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Collidable.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Collider.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\CollisionSystem.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Component.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\DataAsset.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\DataManager.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\DataSource.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Debug.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Drawable.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Entity.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\ExplorationTriggerLogic.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\FileDataSource.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\FixedUpdatable.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\FloatField.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\GameManager.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\ImageLayerRenderer.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imconfig-SFML.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imconfig.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imgui-SFML.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imgui-SFML_export.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imgui.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imgui_internal.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imstb_rectpack.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imstb_textedit.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\imstb_truetype.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\IniFile.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Inspectable.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\ItemData.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Listener.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Managers\AssetsManager.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Managers\EventManager.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Managers\InputManager.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Managers\ShaderManager.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Music.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\PropAtlas.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\PropRenderer.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\RenderLayerComponent.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Rigidbody2D.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Savable.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Scene.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\SceneManager.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Slider.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Sound.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Sprite.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\StatField.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\StatsWindow.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\TagComponent.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\TextComponent.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\TiledUtils.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\TilemapLoader.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\TilemapRenderer.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\tinyxml2.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\TransformComponent.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Updatable.h" />
+    <ClInclude Include="..\..\..\src\LightEngine\Utils.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

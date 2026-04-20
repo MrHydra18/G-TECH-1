@@ -1,0 +1,114 @@
+﻿  Animation.cpp
+  BoxCollider.cpp
+  Button.cpp
+  Camera.cpp
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
+  (compilando archivo de origen "../../../src/LightEngine/Camera.cpp")
+      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
+      vea la definición anterior de 'FIXED_DT'
+  
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Camera.cpp(250,13): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Camera.cpp(288,14): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Camera.cpp(308,24): warning C4305: '-=': truncamiento de 'double' a 'float'
+  CircleCollider.cpp
+  Collidable.cpp
+  Collider.cpp
+  CollisionSystem.cpp
+  Component.cpp
+  DataAsset.cpp
+  DataManager.cpp
+  DataSource.cpp
+  Debug.cpp
+  Drawable.cpp
+  Entity.cpp
+  ExplorationTriggerLogic.cpp
+  FileDataSource.cpp
+  FixedUpdatable.cpp
+  FloatField.cpp
+  GameManager.cpp
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
+  (compilando archivo de origen "../../../src/LightEngine/GameManager.cpp")
+      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
+      vea la definición anterior de 'FIXED_DT'
+  
+  Generando código...
+  Compilando...
+  ImageLayerRenderer.cpp
+  imgui-SFML.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  IniFile.cpp
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\IniFile.cpp(54,38): warning C4101: 'e': variable local sin referencia
+  Inspectable.cpp
+  ItemData.cpp
+  Listener.cpp
+  AssetsManager.cpp
+  EventManager.cpp
+  InputManager.cpp
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244: '=': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244:         with
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244:         [
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244:             T=int
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244:         ]
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244: '=': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244:         with
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244:         [
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244:             T=int
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244:         ]
+  ShaderManager.cpp
+  Music.cpp
+  PropAtlas.cpp
+  PropRenderer.cpp
+  RenderLayerComponent.cpp
+  Rigidbody2D.cpp
+  Generando código...
+  Compilando...
+  Savable.cpp
+  Scene.cpp
+  SceneManager.cpp
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1): warning C4005: 'FIXED_DT': redefinición de macro
+  (compilando archivo de origen "../../../src/LightEngine/SceneManager.cpp")
+      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1):
+      vea la definición anterior de 'FIXED_DT'
+  
+  Slider.cpp
+  Sound.cpp
+  Sprite.cpp
+  StatField.cpp
+  StatsWindow.cpp
+  TagComponent.cpp
+  TextComponent.cpp
+  TiledUtils.cpp
+  TilemapLoader.cpp
+  TilemapRenderer.cpp
+  tinyxml2.cpp
+  TransformComponent.cpp
+  Updatable.cpp
+  Utils.cpp
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(34,19): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244: 'argumento': conversión de 'const T' a 'int'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244:         with
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244:         [
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244:             T=float
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244:         ]
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244: 'argumento': conversión de 'const T' a 'int'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244:         with
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244:         [
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244:             T=float
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244:         ]
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244: 'argumento': conversión de 'const T' a 'int'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244:         with
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244:         [
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244:             T=float
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244:         ]
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244: 'argumento': conversión de 'const T' a 'int'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244:         with
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244:         [
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244:             T=float
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244:         ]
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(47,37): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  Generando código...
+  LightEngine.vcxproj -> C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\ide\vs\LightEngine\Build\Debug\LightEngine.lib
