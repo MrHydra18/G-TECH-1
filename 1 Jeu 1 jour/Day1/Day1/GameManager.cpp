@@ -35,8 +35,14 @@ void GameManager::Init()
 	Player* player = new Player({ 50, 600 }, { 1, 0 }, 250);
 	addEntity(player);
 
-	Obstacles* obstacle = new Obstacles({ 900, 550 }, { -1, 0 }, 250);
-	addEntity(obstacle);
+	for (int nb = 0; nb < 8; ++nb)
+	{
+		Obstacles* obstacle = new Obstacles({ 900, 550 }, { -1, 0 }, 250);
+		addEntity(obstacle);
+
+		SDL_
+
+	}
 
 }
 
