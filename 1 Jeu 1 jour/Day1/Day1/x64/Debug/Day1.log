@@ -1,39 +1,8 @@
-﻿  Entity.cpp
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(24,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Entity.cpp')
-  
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(25,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Entity.cpp')
-  
-  GameManager.cpp
+﻿  GameManager.cpp
 C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(24,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
   (compiler le fichier source 'GameManager.cpp')
   
 C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(25,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
   (compiler le fichier source 'GameManager.cpp')
   
-  InputManager.cpp
-  main.cpp
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(24,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'main.cpp')
-  
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(25,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'main.cpp')
-  
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\main.cpp(33,23): warning C4244: 'argument' : conversion de 'float' en 'Uint32', perte possible de données
-  Obstacles.cpp
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(24,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Obstacles.cpp')
-  
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(25,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Obstacles.cpp')
-  
-  Player.cpp
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(24,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Player.cpp')
-  
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\Day1\Entity.h(25,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Player.cpp')
-  
-  Génération de code en cours...
   Day1.vcxproj -> C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day1\x64\Debug\Day1.exe

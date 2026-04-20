@@ -35,7 +35,7 @@ void GameManager::Init()
 	Player* player = new Player({ 50, 600 }, { 1, 0 }, 250);
 	addEntity(player);
 
-	Obstacles* obstacle = new Obstacles({ 900, 500 }, { -1, 0 }, 250);
+	Obstacles* obstacle = new Obstacles({ 900, 550 }, { -1, 0 }, 250);
 	addEntity(obstacle);
 
 }
