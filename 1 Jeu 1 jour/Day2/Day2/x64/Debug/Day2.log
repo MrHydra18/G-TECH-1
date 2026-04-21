@@ -1,38 +1,54 @@
 ﻿  GameManager.cpp
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,31): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'GameManager.cpp')
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,31): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "GameManager.cpp")
   
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,37): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'GameManager.cpp')
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,37): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "GameManager.cpp")
   
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(24,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'GameManager.cpp')
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(24,22): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "GameManager.cpp")
   
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(25,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'GameManager.cpp')
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(25,22): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "GameManager.cpp")
   
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(85,16): warning C4244: 'initialisation' : conversion de 'const _Ty' en 'int', perte possible de données
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(85,16): warning C4244:         with
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(85,16): warning C4244:         [
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(85,16): warning C4244:             _Ty=float
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(85,16): warning C4244:         ]
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(86,16): warning C4244: 'initialisation' : conversion de 'const _Ty' en 'int', perte possible de données
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(86,16): warning C4244:         with
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(86,16): warning C4244:         [
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(86,16): warning C4244:             _Ty=float
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(86,16): warning C4244:         ]
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(67,16): warning C4244: 'inicializando': conversión de 'const _Ty' a 'int'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(67,16): warning C4244:         with
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(67,16): warning C4244:         [
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(67,16): warning C4244:             _Ty=float
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(67,16): warning C4244:         ]
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(68,16): warning C4244: 'inicializando': conversión de 'const _Ty' a 'int'; posible pérdida de datos
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(68,16): warning C4244:         with
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(68,16): warning C4244:         [
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(68,16): warning C4244:             _Ty=float
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(68,16): warning C4244:         ]
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\GameManager.cpp(154,11): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+  MenuManager.cpp
   Obstacles.cpp
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,31): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Obstacles.cpp')
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,31): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Obstacles.cpp")
   
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,37): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Obstacles.cpp')
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,37): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Obstacles.cpp")
   
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(24,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Obstacles.cpp')
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(24,22): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Obstacles.cpp")
   
-C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(25,19): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-  (compiler le fichier source 'Obstacles.cpp')
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(25,22): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Obstacles.cpp")
   
-  Génération de code en cours...
-  Day2.vcxproj -> C:\Users\icotvaquero\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\x64\Debug\Day2.exe
+  main.cpp
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,31): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Vector2D.h(19,37): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(24,22): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\Entity.h(25,22): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "main.cpp")
+  
+C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\Day2\main.cpp(33,37): warning C4244: 'argumento': conversión de 'float' a 'Uint32'; posible pérdida de datos
+  Generando código...
+  Day2.vcxproj -> C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\x64\Debug\Day2.exe

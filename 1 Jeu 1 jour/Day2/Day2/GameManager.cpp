@@ -9,34 +9,16 @@
 
 void GameManager::Init()
 {
+	SDL_Init(SDL_INIT_VIDEO);
 
-	if (SDL_Init(SDL_INIT_VIDEO) != 0)
-	{
-		std::cout << "SDL_Init Error: " << SDL_GetError() << std::endl;
-		return;
-	}
-
-	window = SDL_CreateWindow("Game", 100, 100, 1000, 600, SDL_WINDOW_SHOWN);
-
-	if (!window)
-	{
-		std::cout << "SDL_CREATEWINDOW Error: " << SDL_GetError() << std::endl;
-		SDL_Quit();
-		return;
-	}
+	window = SDL_CreateWindow("Dodge It", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1000, 600, 0);
 
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 
-	if (!renderer) {
-		std::cout << "SDL_CreateRenderer Error: " << SDL_GetError() << std::endl;
-		SDL_DestroyWindow(window);
-		SDL_Quit();
-		return;
+	if (!m_menuManager.Init("police.ttf"))
+	{
+		SDL_Log("[GameManager] Impossible de charger la police TTF !");
 	}
-
-	Player* player = new Player({ 50, 525 }, { 1, 0 }, 250);
-	addEntity(player);
-
 }
 
 void GameManager::Update(float deltaTime)
@@ -44,17 +26,14 @@ void GameManager::Update(float deltaTime)
 	Entity* player = getEntitieByTag("Player");
 	Entity* obstacle = getEntitieByTag("Obstacle");
 
-	if (m_obstacleCount < m_maxObstacles)
+	if (m_obstacleCount < m_maxObstacles && m_spawnTimer >= m_spawnInterval)
 	{
 		m_spawnTimer += deltaTime;
-		if (m_spawnTimer >= m_spawnInterval)
-		{
-			m_spawnTimer -= m_spawnInterval;
+		m_spawnTimer -= m_spawnInterval;
 
-			Obstacles* newObstacle = new Obstacles({ getRandomInt(50, 950), getRandomInt(50, 550) },{ getRandomInt(-1, 1), getRandomInt(-1, 1)},250);
-			addEntity(newObstacle);
-			++m_obstacleCount;
-		}
+		SpawnObjects();
+		++m_obstacleCount;
+
 	}
 
 	for (auto& entity : entities)
@@ -63,7 +42,7 @@ void GameManager::Update(float deltaTime)
 		{
 			if (player->collision(entity->m_rect))
 			{
-				isRunning = false;
+				m_gameState = GameState::GAME_OVER;
 				break;
 			}
 		}
@@ -83,7 +62,7 @@ void GameManager::Update(float deltaTime)
 				SDL_FRect rO = other->m_rect;
 
 				int countX = std::max(rE.x + rE.w - rO.x, rO.x + rO.w - rE.x);
-				int countY = std::max(rE.y + rE.h - rO.y, rO.y + rO.h - rO.y);
+				int countY = std::max(rE.y + rE.h - rO.y, rO.y + rO.h - rE.y);
 
 				if (countX > countY)
 				{
@@ -107,15 +86,16 @@ void GameManager::Update(float deltaTime)
 
 void GameManager::Shutdown()
 {
-	if (renderer) {
-		SDL_DestroyRenderer(renderer);
-		renderer = nullptr;
+	for (auto* e : entities)
+	{
+		delete e;
+		entities.clear();
 	}
+	m_menuManager.Shutdown();
 
-	if (window) {
-		SDL_DestroyWindow(window);
-		window = nullptr;
-	}
+	SDL_DestroyRenderer(renderer);
+	SDL_DestroyWindow(window);
+	SDL_Quit();
 }
 
 Entity* GameManager::getEntitieByTag(std::string t)
@@ -146,28 +126,142 @@ int GameManager::getRandomInt(int min, int max)
 	return value;
 }
 
+void GameManager::resetGame()
+{
+	for (auto* e : entities)
+	{
+		delete e; 
+		entities.clear();
+	}
+
+	m_elapsedTime = 0.0f;
+	m_spawnTimer = 0.0f;
+	m_obstacleCount = 0;
+
+	addEntity(new Player(Vector2D(500.0f, 300.0f),Vector2D(0.0f, 0.0f),200));
+}
+
+void GameManager::SpawnObjects()
+{
+	Entity* player = getEntitieByTag("Player");
+
+	Vector2D pos = { getRandomInt(50, 950), getRandomInt(50, 550) };
+	Vector2D playerPos = { player->getPosition() };
+
+	int dist = playerPos.Distance(pos);
+
+	if (dist < 100)
+	{
+		SpawnObjects();
+		return;
+	}
+
+	Obstacles* newObstacle = new Obstacles(pos, { getRandomInt(-1, 1), getRandomInt(-1, 1) }, 250);
+	addEntity(newObstacle);
+}
+
 void GameManager::handleEvents()
 {
-	InputManager* inputManager = &InputManager::getInstance();
+	InputManager& inputManager = InputManager::getInstance();
+	SDL_Event event;
 
-	if (inputManager->update() == false)
-		isRunning = false;
-
-	if (inputManager->IsKeyDown(SDLK_ESCAPE))
+	if (inputManager.update() == false)
 	{
 		isRunning = false;
+		return;
+	}
+
+	if (inputManager.IsKeyDown(SDLK_ESCAPE))
+	{
+		isRunning = false;
+		return;
+	}
+
+	while (SDL_PollEvent(&event))
+	{
+		switch (event.type)
+		{
+		case SDL_QUIT:
+			isRunning = false;
+			break;
+
+		case SDL_MOUSEBUTTONDOWN:
+			if (event.button.button == SDL_BUTTON_LEFT)
+			{
+				int mx = event.button.x;
+				int my = event.button.y;
+
+				if (m_gameState == GameState::START_MENU)
+				{
+					if (m_menuManager.isPlayClicked(mx, my))
+					{
+						resetGame();
+						m_gameState = GameState::PLAYING;
+					}
+				}
+				else if (m_gameState == GameState::GAME_OVER)
+				{
+					if (m_menuManager.isReplayClicked(mx, my))
+					{
+						resetGame();
+						m_gameState = GameState::PLAYING;
+					}
+				}
+			}
+			break;
+
+		default:
+			break;
+		}
+
+		if (m_gameState == GameState::START_MENU)
+		{
+			if (inputManager.IsKeyDown(SDLK_RETURN) || inputManager.IsKeyDown(SDLK_SPACE))
+			{
+				resetGame();
+				m_gameState = GameState::PLAYING;
+				inputManager.resetKey(SDLK_RETURN);
+				inputManager.resetKey(SDLK_SPACE);
+			}
+		}
+		else if (m_gameState == GameState::GAME_OVER)
+		{
+			if (inputManager.IsKeyDown(SDLK_r))
+			{
+				resetGame();
+				m_gameState = GameState::PLAYING;
+				inputManager.resetKey(SDLK_r);
+			}
+			if (inputManager.IsKeyDown(SDLK_ESCAPE))
+			{
+				m_gameState = GameState::START_MENU;
+				inputManager.resetKey(SDLK_ESCAPE);
+			}
+		}
 	}
 }
 
-void GameManager::render() {
-
-	SDL_SetRenderDrawColor(renderer, 50, 50, 50, 255);
+void GameManager::render()
+{
+	SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 	SDL_RenderClear(renderer);
 
-	for (auto& entity : entities)
-		entity->render(renderer);
+	switch (m_gameState)
+	{
+	case GameState::START_MENU:
+		m_menuManager.renderStartMenu(renderer);
+		break;
 
-	renderTime(m_elapsedTime, 1000 - 115, 10);
+	case GameState::PLAYING:
+		for (auto* e : entities)
+			e->render(renderer);
+		renderTime(m_elapsedTime, 10, 10);
+		break;
+
+	case GameState::GAME_OVER:
+		m_menuManager.renderGameOver(renderer, m_elapsedTime);
+		break;
+	}
 
 	SDL_RenderPresent(renderer);
 }

@@ -135,6 +135,11 @@ public:
         return std::sqrt(dx * dx + dy * dy);
     }
 
+    int DistanceBetweenPoints(const Vector2D& vec1, const Vector2D& vec2)
+    {
+        return (vec2.xi - vec1.xi) ^ 2 + (vec2.yi - vec1.yi) ^ 2;
+    }
+
 
     float DistanceSquared(const Vector2D& vec) const {
         float dx = x - vec.x;

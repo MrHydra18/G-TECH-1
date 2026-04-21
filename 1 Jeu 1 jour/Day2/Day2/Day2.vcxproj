@@ -102,13 +102,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SDL2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\ikerc\Documents\GitHub\G-TECH-1\1 Jeu 1 jour\Day2\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -130,6 +130,7 @@
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuManager.cpp" />
     <ClCompile Include="Obstacles.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
@@ -137,6 +138,7 @@
     <ClInclude Include="Entity.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="InputManager.h" />
+    <ClInclude Include="MenuManager.h" />
     <ClInclude Include="Obstacles.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Vector2D.h" />
