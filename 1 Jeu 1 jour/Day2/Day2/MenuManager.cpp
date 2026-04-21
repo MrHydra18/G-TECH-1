@@ -100,13 +100,8 @@ void MenuManager::renderStartMenu(SDL_Renderer* renderer) const
     renderText(renderer, "DODGE IT", m_fontLarge, shadow, tx + 4, 104);
     renderText(renderer, "DODGE IT", m_fontLarge, titleCl, tx, 100);
 
-    renderTextCentered(renderer, "Survive as long as you can !", m_fontSmall, { 160, 180, 220, 255 }, 210);
-
     drawButton(renderer, m_playButton,{ 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "PLAY", m_fontMedium, { 210, 255, 230, 255 });
 
-    renderTextCentered(renderer, "Move : ZQSD  or  Arrow Keys", m_fontSmall, { 120, 130, 150, 255 }, 460);
-
-    renderTextCentered(renderer, "Press ENTER or click PLAY to start", m_fontSmall, { 80, 90, 110, 255 }, 490);
 }
 
 
@@ -139,7 +134,6 @@ void MenuManager::renderGameOver(SDL_Renderer* renderer, float elapsedTime) cons
 
     drawButton(renderer, m_replayButton, { 130, 25, 25, 255 }, { 255, 100, 100, 255 }, "PLAY AGAIN", m_fontMedium, { 255, 200, 200, 255 });
 
-    renderTextCentered(renderer, "Press  R  to restart   |   ESC  to return to menu", m_fontSmall, { 130, 80, 80, 255 }, 440);
 }
 
 

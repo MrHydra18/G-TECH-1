@@ -17,10 +17,13 @@ private:
 	MenuManager m_menuManager;
 	GameState   m_gameState = GameState::START_MENU;
 
-	int m_maxObstacles = 20;
-	float m_spawnInterval = 0.7f; 
+	int m_maxObstacles = 15;
+	float m_spawnInterval = 2.0f; 
 	float m_spawnTimer = 0.0f;
 	int m_obstacleCount = 0;
+	int m_lastSpeedUp = 0;
+	int minutes;
+	int seconds;
 
 	float m_elapsedTime = 0.0f;
 

@@ -24,11 +24,26 @@ void GameManager::Init()
 void GameManager::Update(float deltaTime)
 {
 	Entity* player = getEntitieByTag("Player");
-	Entity* obstacle = getEntitieByTag("Obstacle");
+
+	m_spawnTimer += deltaTime;
+
+	if (m_gameState != GameState::PLAYING)
+		return;
+
+	int timePassed = (int)(m_elapsedTime / 20.0f);
+
+	if (timePassed > m_lastSpeedUp)
+	{
+		m_lastSpeedUp = timePassed;
+		for (auto& entity : entities)
+		{
+			if (entity->tag == "Obstacle")
+				entity->speed = (int)(entity->speed * 1.1f);
+		}
+	}
 
 	if (m_obstacleCount < m_maxObstacles && m_spawnTimer >= m_spawnInterval)
 	{
-		m_spawnTimer += deltaTime;
 		m_spawnTimer -= m_spawnInterval;
 
 		SpawnObjects();
@@ -87,10 +102,10 @@ void GameManager::Update(float deltaTime)
 void GameManager::Shutdown()
 {
 	for (auto* e : entities)
-	{
 		delete e;
-		entities.clear();
-	}
+
+	entities.clear();
+
 	m_menuManager.Shutdown();
 
 	SDL_DestroyRenderer(renderer);
@@ -128,19 +143,18 @@ int GameManager::getRandomInt(int min, int max)
 
 void GameManager::resetGame()
 {
+
 	for (auto* e : entities)
-	{
-		delete e; 
-		entities.clear();
-	}
+		delete e;
+
+	entities.clear();
 
 	m_elapsedTime = 0.0f;
 	m_spawnTimer = 0.0f;
 	m_obstacleCount = 0;
 
-	addEntity(new Player(Vector2D(500.0f, 300.0f),Vector2D(0.0f, 0.0f),200));
+	addEntity(new Player(Vector2D(500.0f, 300.0f), Vector2D(0.0f, 0.0f), 200));
 }
-
 void GameManager::SpawnObjects()
 {
 	Entity* player = getEntitieByTag("Player");
@@ -163,9 +177,8 @@ void GameManager::SpawnObjects()
 void GameManager::handleEvents()
 {
 	InputManager& inputManager = InputManager::getInstance();
-	SDL_Event event;
 
-	if (inputManager.update() == false)
+	if (!inputManager.update())
 	{
 		isRunning = false;
 		return;
@@ -173,70 +186,54 @@ void GameManager::handleEvents()
 
 	if (inputManager.IsKeyDown(SDLK_ESCAPE))
 	{
+		if (m_gameState == GameState::PLAYING || m_gameState == GameState::GAME_OVER)
+		{
+			resetGame();
+			m_gameState = GameState::START_MENU;
+			inputManager.resetKey(SDLK_ESCAPE);
+			return;
+		}
 		isRunning = false;
 		return;
 	}
 
-	while (SDL_PollEvent(&event))
+	if (m_gameState == GameState::START_MENU)
 	{
-		switch (event.type)
+		if (inputManager.IsKeyDown(SDLK_RETURN) || inputManager.IsKeyDown(SDLK_SPACE))
 		{
-		case SDL_QUIT:
-			isRunning = false;
-			break;
-
-		case SDL_MOUSEBUTTONDOWN:
-			if (event.button.button == SDL_BUTTON_LEFT)
-			{
-				int mx = event.button.x;
-				int my = event.button.y;
-
-				if (m_gameState == GameState::START_MENU)
-				{
-					if (m_menuManager.isPlayClicked(mx, my))
-					{
-						resetGame();
-						m_gameState = GameState::PLAYING;
-					}
-				}
-				else if (m_gameState == GameState::GAME_OVER)
-				{
-					if (m_menuManager.isReplayClicked(mx, my))
-					{
-						resetGame();
-						m_gameState = GameState::PLAYING;
-					}
-				}
-			}
-			break;
-
-		default:
-			break;
+			resetGame();
+			m_gameState = GameState::PLAYING;
+			inputManager.resetKey(SDLK_RETURN);
+			inputManager.resetKey(SDLK_SPACE);
+			return;
 		}
-
-		if (m_gameState == GameState::START_MENU)
+	}
+	else if (m_gameState == GameState::GAME_OVER)
+	{
+		if (inputManager.IsKeyDown(SDLK_r))
 		{
-			if (inputManager.IsKeyDown(SDLK_RETURN) || inputManager.IsKeyDown(SDLK_SPACE))
-			{
-				resetGame();
-				m_gameState = GameState::PLAYING;
-				inputManager.resetKey(SDLK_RETURN);
-				inputManager.resetKey(SDLK_SPACE);
-			}
+			resetGame();
+			m_gameState = GameState::PLAYING;
+			inputManager.resetKey(SDLK_r);
+			return;
 		}
-		else if (m_gameState == GameState::GAME_OVER)
+	}
+
+	if (inputManager.IsMouseDown(SDL_BUTTON_LEFT))
+	{
+		Vector2D mp = inputManager.getMousePos();
+		int mx = (int)mp.x;
+		int my = (int)mp.y;
+
+		if (m_gameState == GameState::START_MENU && m_menuManager.isPlayClicked(mx, my))
 		{
-			if (inputManager.IsKeyDown(SDLK_r))
-			{
-				resetGame();
-				m_gameState = GameState::PLAYING;
-				inputManager.resetKey(SDLK_r);
-			}
-			if (inputManager.IsKeyDown(SDLK_ESCAPE))
-			{
-				m_gameState = GameState::START_MENU;
-				inputManager.resetKey(SDLK_ESCAPE);
-			}
+			resetGame();
+			m_gameState = GameState::PLAYING;
+		}
+		else if (m_gameState == GameState::GAME_OVER && m_menuManager.isReplayClicked(mx, my))
+		{
+			resetGame();
+			m_gameState = GameState::PLAYING;
 		}
 	}
 }
@@ -337,8 +334,8 @@ void GameManager::renderTime(float elapsed, int x, int y)
 	int gap = 5;
 	int colonW = 6;
 
-	int minutes = (int)elapsed / 60;
-	int seconds = (int)elapsed % 60;
+	minutes = (int)elapsed / 60;
+	seconds = (int)elapsed % 60;
 
 	int m1 = minutes / 10;
 	int m2 = minutes % 10;
