@@ -129,25 +129,44 @@ void MenuManager::renderPause(SDL_Renderer* renderer) const
     drawButton(renderer, m_quitButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "QUIT", m_fontMedium, { 210, 255, 230, 255 });
 }
 
-void MenuManager::renderShop(SDL_Renderer* renderer) const
+void MenuManager::renderShop(SDL_Renderer* renderer, float prixPrecision, float prixDelay) const
 {
-
     drawBackground(renderer, { 10, 10, 40, 255 }, { 20, 30, 80, 255 });
 
-    const SDL_Color shadow = { 0,  60, 130, 200 };
+    const SDL_Color shadow = { 0,   60, 130, 200 };
     const SDL_Color goClr = { 100, 220, 255, 255 };
+    const SDL_Color priceClr = { 255, 220,  50, 255 };
 
     int tw = 0, th = 0;
-
     TTF_SizeUTF8(m_fontLarge, "SHOP", &tw, &th);
-
     int tx = (SCREEN_W - tw) / 2;
 
     renderText(renderer, "SHOP", m_fontLarge, shadow, tx + 5, 105);
     renderText(renderer, "SHOP", m_fontLarge, goClr, tx, 100);
 
     drawButton(renderer, m_replayButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "AIM ASSIST", m_fontMedium, { 210, 255, 230, 255 });
+    {
+        char buf[32];
+        std::snprintf(buf, sizeof(buf), "Cost: %d pts", (int)prixPrecision);
+        int pw = 0, ph = 0;
+        TTF_SizeUTF8(m_fontSmall, buf, &pw, &ph);
+        int px = m_replayButton.x + (m_replayButton.w - pw) / 2;
+        int py = m_replayButton.y + m_replayButton.h + 6;
+        renderText(renderer, buf, m_fontSmall, priceClr, px, py);
+    }
+
+
     drawButton(renderer, m_boutiqueButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "DELAY", m_fontMedium, { 210, 255, 230, 255 });
+    {
+        char buf[32];
+        std::snprintf(buf, sizeof(buf), "Cost: %d pts", (int)prixDelay);
+        int pw = 0, ph = 0;
+        TTF_SizeUTF8(m_fontSmall, buf, &pw, &ph);
+        int px = m_boutiqueButton.x + (m_boutiqueButton.w - pw) / 2;
+        int py = m_boutiqueButton.y + m_boutiqueButton.h + 6;
+        renderText(renderer, buf, m_fontSmall, priceClr, px, py);
+    }
+
     drawButton(renderer, m_quitButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "QUIT", m_fontMedium, { 210, 255, 230, 255 });
 }
 

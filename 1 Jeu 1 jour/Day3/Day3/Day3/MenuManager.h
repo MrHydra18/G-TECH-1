@@ -41,7 +41,7 @@ public:
 
     void renderStartMenu(SDL_Renderer* renderer) const;
     void renderPause(SDL_Renderer* renderer) const;
-    void renderShop(SDL_Renderer* renderer) const;
+    void renderShop(SDL_Renderer* renderer, float prixPrecision, float prixDelay) const;
 
     bool isPlayClicked(int mx, int my)   const;
     bool isQuitClicked(int mx, int my)   const;

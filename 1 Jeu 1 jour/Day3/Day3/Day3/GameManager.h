@@ -18,7 +18,9 @@ private:
 	GameState   m_gameState = GameState::MENU;
 
 	int points = 0;
-	float m_spawnInterval = 1.0f; 
+	int removedCount = 0;
+	int m_maxObstacles = 5;
+	float m_spawnInterval = 0.2f; 
 	float m_maxTimeOnScreen = 3.0f;
 	float m_spawnTimer = 0.0f;
 	int m_obstacleCount = 0;
@@ -26,10 +28,14 @@ private:
 
 	float m_precision = 10.f;
 
+	float m_prixPrecision = 50.0f;
+	float m_prixDelay = 50.0f;
+
 	float m_elapsedTime = 0.0f;
 
 	void renderDigit(int digit, int x, int y, int w, int h);
 	void renderTime(float elapsed, int x, int y);
+	void renderPoints(int pts, int x, int y);
 
 	void resetGame();
 

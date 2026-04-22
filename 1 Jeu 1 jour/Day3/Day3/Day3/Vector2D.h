@@ -45,7 +45,7 @@ public:
     int abs(const int x2) {
 
         int result = x2 - this->xi;
-        if (result < 0) result *= 1;
+        if (result < 0) result *= -1;
         return result;
     }
 

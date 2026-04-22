@@ -31,7 +31,7 @@ void GameManager::Update(float deltaTime)
 
 	int timePassed = (int)(m_elapsedTime / 20.0f);
 
-	if (m_spawnTimer >= m_spawnInterval)
+	if (m_spawnTimer >= m_spawnInterval && m_obstacleCount < m_maxObstacles)
 	{
 		m_spawnTimer -= m_spawnInterval;
 
@@ -43,11 +43,14 @@ void GameManager::Update(float deltaTime)
 	for (Entity* entity : entities)
 		entity->m_spawn += deltaTime;
 
+	removedCount = 0;
+
 	entities.erase(std::remove_if(entities.begin(), entities.end(), [this](Entity* entity) // Pas réussit à optimiser :)
 		{
 			if (entity->m_spawn >= m_maxTimeOnScreen)
 			{
 				delete entity;
+				removedCount++;
 				return true;
 			}
 			return false;
@@ -55,29 +58,32 @@ void GameManager::Update(float deltaTime)
 		entities.end()
 	);
 
+	for (int i = 0; i < removedCount; i++)
+		SpawnObjects();
+
 	if (inputManager.IsMouseDown(SDL_BUTTON_LEFT))
 	{
 		Vector2D mp = inputManager.getMousePos();
+		SDL_FRect precisionRect = { mp.x - m_precision, mp.y - m_precision,
+									m_precision * 2.0f, m_precision * 2.0f };
 
-		SDL_FRect precisionRect = { mp.x - m_precision, mp.y - m_precision, m_precision * 2.0f, m_precision * 2.0f };
+		int spawnCount = 0;
 
 		auto it = entities.begin();
-
 		while (it != entities.end())
 		{
 			if ((*it)->collision(precisionRect))
 			{
 				delete* it;
 				it = entities.erase(it);
+				spawnCount++;
+				points++;
 			}
-			else
-			{
-				++it;
-			}
+			else { ++it; }
 		}
 
-		SpawnObjects();
-		points++;
+		for (int i = 0; i < spawnCount; i++)
+			SpawnObjects();
 	}
 
 	m_elapsedTime += deltaTime;
@@ -140,13 +146,37 @@ void GameManager::resetGame()
 
 void GameManager::SpawnObjects()
 {
-	Vector2D pos = { getRandomInt(50, 950), getRandomInt(50, 550) };
+	float obstacleSize = 75.0f;
 
-	for (Entity* entity : entities)
+	float minDist = obstacleSize + 10.0f;
+
+	Vector2D pos;
+	bool validPos = false;
+	int attempts = 0;
+
+	while (!validPos && attempts < 20)
 	{
-		if (pos.abs(entity->getPosition().x) < 75)
-			return;
+		pos = { getRandomInt(75, 925), getRandomInt(75, 525) };
+		validPos = true;
+
+		for (Entity* entity : entities)
+		{
+			Vector2D ePos = entity->getPosition();
+			float dx = pos.x - ePos.x;
+			float dy = pos.y - ePos.y;
+			float dist = std::sqrt(dx * dx + dy * dy);
+
+			if (dist < minDist)
+			{
+				validPos = false;
+				break;
+			}
+		}
+		attempts++;
 	}
+
+	if (!validPos)
+		return;
 
 	Obstacles* newObstacle = new Obstacles(pos);
 	addEntity(newObstacle);
@@ -205,13 +235,21 @@ void GameManager::handleEvents()
 		}
 		else if (m_gameState == GameState::SHOP && m_menuManager.isBoutiqueClicked(mx, my))
 		{
-			m_maxTimeOnScreen *= 1.05f;
-			std::cout << "Delay upgrade" << std::endl;
+			if (points >= m_prixDelay)
+			{
+				m_maxTimeOnScreen *= 1.05f;
+				points -= m_prixDelay;
+				m_prixDelay *= 1.15f;
+			}
 		}
 		else if (m_gameState == GameState::SHOP && m_menuManager.isReplayClicked(mx, my))
 		{
-			m_precision *= 1.05f;
-			std::cout << "AIM ASSIST" << std::endl;
+			if (points >= m_prixPrecision)
+			{
+				m_precision *= 1.05f;
+				points -= m_prixPrecision;
+				m_prixPrecision *= 1.15f;
+			}
 		}
 		else if (m_gameState == GameState::SHOP && m_menuManager.isQuitClicked(mx, my))
 		{
@@ -235,22 +273,24 @@ void GameManager::render()
 		for (auto* e : entities)
 			e->render(renderer);
 
-		renderTime(m_elapsedTime, 10, 10);
+		renderPoints(points, 850, 10);
 		break;
 
 	case GameState::PAUSE:
 		m_menuManager.renderPause(renderer);
+		renderPoints(points, 850, 10);
 		break;
 
 	case GameState::SHOP:
-		m_menuManager.renderShop(renderer);
+		m_menuManager.renderShop(renderer, m_prixPrecision, m_prixDelay);
+		renderPoints(points, 850, 10);
 		break;
 	}
 
 	SDL_RenderPresent(renderer);
 }
 
-//Le code termine ici c juste la fonction pour le chronomètre
+//Le code termine ici c juste la fonction pour le chronomètre et les points
 
 void GameManager::renderDigit(int digit, int x, int y, int w, int h)
 {
@@ -343,4 +383,25 @@ void GameManager::renderTime(float elapsed, int x, int y)
 
 	renderDigit(s1, x + 2 * (digitW + gap) + colonW, y, digitW, digitH);
 	renderDigit(s2, x + 3 * (digitW + gap) + colonW, y, digitW, digitH);
+}
+
+void GameManager::renderPoints(int pts, int x, int y)
+{
+	int digitW = 20;
+	int digitH = 34;
+	int gap = 5;
+
+	int val = pts < 9999 ? pts : 9999;
+
+	int d0 = val / 1000;
+	int d1 = (val / 100) % 10;
+	int d2 = (val / 10) % 10;
+	int d3 = val % 10;
+
+	SDL_SetRenderDrawColor(renderer, 255, 220, 50, 255);
+
+	renderDigit(d0, x, y, digitW, digitH);
+	renderDigit(d1, x + (digitW + gap), y, digitW, digitH);
+	renderDigit(d2, x + 2 * (digitW + gap), y, digitW, digitH);
+	renderDigit(d3, x + 3 * (digitW + gap), y, digitW, digitH);
 }
