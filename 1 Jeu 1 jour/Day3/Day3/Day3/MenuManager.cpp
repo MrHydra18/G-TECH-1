@@ -73,8 +73,7 @@ void MenuManager::drawButton(SDL_Renderer* r, SDL_Rect rect,
     renderText(r, label, font, textColor, tx, ty);
 }
 
-void MenuManager::drawBackground(SDL_Renderer* r,
-    SDL_Color top, SDL_Color bottom) const
+void MenuManager::drawBackground(SDL_Renderer* r, SDL_Color top, SDL_Color bottom) const
 {
     for (int y = 0; y < SCREEN_H; ++y)
     {
@@ -95,45 +94,61 @@ void MenuManager::renderStartMenu(SDL_Renderer* renderer) const
     const SDL_Color titleCl = { 100, 220, 255, 255 };
 
     int tw = 0, th = 0;
-    TTF_SizeUTF8(m_fontLarge, "DODGE IT", &tw, &th);
+
+    TTF_SizeUTF8(m_fontLarge, "AIM CLAP", &tw, &th);
+
     int tx = (SCREEN_W - tw) / 2;
-    renderText(renderer, "DODGE IT", m_fontLarge, shadow, tx + 4, 104);
-    renderText(renderer, "DODGE IT", m_fontLarge, titleCl, tx, 100);
+
+    renderText(renderer, "AIM CLAP", m_fontLarge, shadow, tx + 4, 104);
+    renderText(renderer, "AIM CLAP", m_fontLarge, titleCl, tx, 100);
 
     drawButton(renderer, m_playButton,{ 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "PLAY", m_fontMedium, { 210, 255, 230, 255 });
+    drawButton(renderer, m_quitButton,{ 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "QUIT", m_fontMedium, { 210, 255, 230, 255 });
 
 }
 
 
-void MenuManager::renderGameOver(SDL_Renderer* renderer, float elapsedTime) const
+void MenuManager::renderPause(SDL_Renderer* renderer) const
 {
+    drawBackground(renderer, { 10, 10, 40, 255 }, { 20, 30, 80, 255 });
 
-    drawBackground(renderer, { 40, 5, 5, 255 }, { 80, 10, 10, 255 });
-
-    const SDL_Color shadow = { 90, 0,  0,  200 };
-    const SDL_Color goClr = { 255, 70, 70, 255 };
+    const SDL_Color shadow = { 0,  60, 130, 200 };
+    const SDL_Color goClr = { 100, 220, 255, 255 };
 
     int tw = 0, th = 0;
 
-    TTF_SizeUTF8(m_fontLarge, "GAME OVER", &tw, &th);
+    TTF_SizeUTF8(m_fontLarge, "PAUSE", &tw, &th);
 
     int tx = (SCREEN_W - tw) / 2;
 
-    renderText(renderer, "GAME OVER", m_fontLarge, shadow, tx + 5, 105);
-    renderText(renderer, "GAME OVER", m_fontLarge, goClr, tx, 100);
+    renderText(renderer, "PAUSE", m_fontLarge, shadow, tx + 5, 105);
+    renderText(renderer, "PAUSE", m_fontLarge, goClr, tx, 100);
 
-    int totalSec = (int)elapsedTime;
-    int minutes = totalSec / 60;
-    int seconds = totalSec % 60;
-    int centis = (int)((elapsedTime - totalSec) * 100);
+    drawButton(renderer, m_replayButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "PLAY AGAIN", m_fontMedium, { 210, 255, 230, 255 });
+    drawButton(renderer, m_boutiqueButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "SHOP", m_fontMedium, { 210, 255, 230, 255 });
+    drawButton(renderer, m_quitButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "QUIT", m_fontMedium, { 210, 255, 230, 255 });
+}
 
-    char timeBuf[64];
-    snprintf(timeBuf, sizeof(timeBuf), "Time survived :  %02d : %02d . %02d", minutes, seconds, centis);
+void MenuManager::renderShop(SDL_Renderer* renderer) const
+{
 
-    renderTextCentered(renderer, timeBuf, m_fontMedium, { 255, 220, 80, 255 }, 240);
+    drawBackground(renderer, { 10, 10, 40, 255 }, { 20, 30, 80, 255 });
 
-    drawButton(renderer, m_replayButton, { 130, 25, 25, 255 }, { 255, 100, 100, 255 }, "PLAY AGAIN", m_fontMedium, { 255, 200, 200, 255 });
+    const SDL_Color shadow = { 0,  60, 130, 200 };
+    const SDL_Color goClr = { 100, 220, 255, 255 };
 
+    int tw = 0, th = 0;
+
+    TTF_SizeUTF8(m_fontLarge, "SHOP", &tw, &th);
+
+    int tx = (SCREEN_W - tw) / 2;
+
+    renderText(renderer, "SHOP", m_fontLarge, shadow, tx + 5, 105);
+    renderText(renderer, "SHOP", m_fontLarge, goClr, tx, 100);
+
+    drawButton(renderer, m_replayButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "AIM ASSIST", m_fontMedium, { 210, 255, 230, 255 });
+    drawButton(renderer, m_boutiqueButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "DELAY", m_fontMedium, { 210, 255, 230, 255 });
+    drawButton(renderer, m_quitButton, { 30, 140, 80, 255 }, { 100, 255, 160, 255 }, "QUIT", m_fontMedium, { 210, 255, 230, 255 });
 }
 
 
@@ -147,4 +162,16 @@ bool MenuManager::isReplayClicked(int mx, int my) const
 {
     return mx >= m_replayButton.x && mx <= m_replayButton.x + m_replayButton.w &&
         my >= m_replayButton.y && my <= m_replayButton.y + m_replayButton.h;
+}
+
+bool MenuManager::isBoutiqueClicked(int mx, int my) const
+{
+    return mx >= m_boutiqueButton.x && mx <= m_boutiqueButton.x + m_boutiqueButton.w &&
+        my >= m_boutiqueButton.y && my <= m_boutiqueButton.y + m_boutiqueButton.h;
+}
+
+bool MenuManager::isQuitClicked(int mx, int my) const
+{
+    return mx >= m_quitButton.x && mx <= m_quitButton.x + m_quitButton.w &&
+        my >= m_quitButton.y && my <= m_quitButton.y + m_quitButton.h;
 }

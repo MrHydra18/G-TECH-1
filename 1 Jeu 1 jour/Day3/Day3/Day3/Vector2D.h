@@ -42,6 +42,13 @@ public:
         return *this;
     }
 
+    int abs(const int x2) {
+
+        int result = x2 - this->xi;
+        if (result < 0) result *= 1;
+        return result;
+    }
+
 
     friend Vector2D operator+(Vector2D v1, const Vector2D& v2) {
         return v1.Add(v2);

@@ -8,12 +8,9 @@ private:
 
 public:
 
-    Obstacles(Vector2D pos, Vector2D dir, int s)
-        : Entity("Obstacle")
+    Obstacles(Vector2D pos) : Entity("Obstacle")
     {
-        m_rect = { pos.x, pos.y, 20, 20 };
-        direction = dir;
-        speed = s;
+        m_rect = { pos.x, pos.y, 75, 75 };
     }
 
     void render(SDL_Renderer* renderer);

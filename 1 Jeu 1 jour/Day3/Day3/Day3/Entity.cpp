@@ -7,3 +7,11 @@ bool Entity::collision(SDL_FRect other)
 		other.y < m_rect.y + m_rect.h &&
 		other.y + other.h > m_rect.y);
 }
+
+bool Entity::isInside(Vector2D pos)
+{
+	return (pos.x >= m_rect.x &&
+		pos.x <= m_rect.x + m_rect.w &&
+		pos.y >= m_rect.y &&
+		pos.y <= m_rect.y + m_rect.h);
+}

@@ -5,9 +5,10 @@
 
 enum class GameState
 {
-    START_MENU,
+    MENU,
     PLAYING,
-    GAME_OVER
+    PAUSE,
+    SHOP
 };
 
 class MenuManager
@@ -21,7 +22,9 @@ private:
     const int SCREEN_H = 600;
 
     SDL_Rect m_playButton{ 375, 355, 250, 65 };
-    SDL_Rect m_replayButton{ 375, 335, 250, 65 };
+    SDL_Rect m_quitButton{ 375, 450, 250, 65 };
+    SDL_Rect m_replayButton{ 375, 255, 250, 65 };
+    SDL_Rect m_boutiqueButton{ 375, 355, 250, 65 };
 
     void renderText(SDL_Renderer* r, const char* text, TTF_Font* font, SDL_Color color, int x, int y) const;
 
@@ -37,8 +40,11 @@ public:
     void Shutdown();
 
     void renderStartMenu(SDL_Renderer* renderer) const;
-    void renderGameOver(SDL_Renderer* renderer, float elapsedTime) const;
+    void renderPause(SDL_Renderer* renderer) const;
+    void renderShop(SDL_Renderer* renderer) const;
 
     bool isPlayClicked(int mx, int my)   const;
+    bool isQuitClicked(int mx, int my)   const;
     bool isReplayClicked(int mx, int my) const;
+    bool isBoutiqueClicked(int mx, int my) const;
 };

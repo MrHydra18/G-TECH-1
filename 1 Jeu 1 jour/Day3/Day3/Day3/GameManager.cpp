@@ -2,7 +2,6 @@
 #include "InputManager.h"
 #include <SDL.h>
 #include <iostream>
-#include "Player.h"
 #include "Obstacles.h"
 #include <random>
 #include <algorithm>
@@ -23,7 +22,7 @@ void GameManager::Init()
 
 void GameManager::Update(float deltaTime)
 {
-	Entity* player = getEntitieByTag("Player");
+	InputManager& inputManager = InputManager::getInstance();
 
 	m_spawnTimer += deltaTime;
 
@@ -32,17 +31,7 @@ void GameManager::Update(float deltaTime)
 
 	int timePassed = (int)(m_elapsedTime / 20.0f);
 
-	if (timePassed > m_lastSpeedUp)
-	{
-		m_lastSpeedUp = timePassed;
-		for (auto& entity : entities)
-		{
-			if (entity->tag == "Obstacle")
-				entity->speed = (int)(entity->speed * 1.1f);
-		}
-	}
-
-	if (m_obstacleCount < m_maxObstacles && m_spawnTimer >= m_spawnInterval)
+	if (m_spawnTimer >= m_spawnInterval)
 	{
 		m_spawnTimer -= m_spawnInterval;
 
@@ -51,50 +40,45 @@ void GameManager::Update(float deltaTime)
 
 	}
 
-	for (auto& entity : entities)
-	{
-		if (entity->tag == "Obstacle")
+	for (Entity* entity : entities)
+		entity->m_spawn += deltaTime;
+
+	entities.erase(std::remove_if(entities.begin(), entities.end(), [this](Entity* entity) // Pas réussit à optimiser :)
 		{
-			if (player->collision(entity->m_rect))
+			if (entity->m_spawn >= m_maxTimeOnScreen)
 			{
-				m_gameState = GameState::GAME_OVER;
-				break;
+				delete entity;
+				return true;
+			}
+			return false;
+		}),
+		entities.end()
+	);
+
+	if (inputManager.IsMouseDown(SDL_BUTTON_LEFT))
+	{
+		Vector2D mp = inputManager.getMousePos();
+
+		SDL_FRect precisionRect = { mp.x - m_precision, mp.y - m_precision, m_precision * 2.0f, m_precision * 2.0f };
+
+		auto it = entities.begin();
+
+		while (it != entities.end())
+		{
+			if ((*it)->collision(precisionRect))
+			{
+				delete* it;
+				it = entities.erase(it);
+			}
+			else
+			{
+				++it;
 			}
 		}
+
+		SpawnObjects();
+		points++;
 	}
-
-	for (auto& entity : entities)
-	{
-		for (auto& other : entities)
-		{
-			if (entity == other) continue;
-
-			if (!entity->collision(other->m_rect)) continue;
-
-			if (entity->tag == "Obstacle")
-			{
-				SDL_FRect rE = entity->m_rect;
-				SDL_FRect rO = other->m_rect;
-
-				int countX = std::max(rE.x + rE.w - rO.x, rO.x + rO.w - rE.x);
-				int countY = std::max(rE.y + rE.h - rO.y, rO.y + rO.h - rE.y);
-
-				if (countX > countY)
-				{
-					entity->direction.x *= -1;
-					other->direction.x *= -1;
-				}
-				else
-				{
-					entity->direction.y *= -1;
-					other->direction.y *= -1;
-				}
-			}
-		}
-	}
-
-	for (auto& entity : entities)
-		entity->update(deltaTime);
 
 	m_elapsedTime += deltaTime;
 }
@@ -152,25 +136,19 @@ void GameManager::resetGame()
 	m_elapsedTime = 0.0f;
 	m_spawnTimer = 0.0f;
 	m_obstacleCount = 0;
-
-	addEntity(new Player(Vector2D(500.0f, 300.0f), Vector2D(0.0f, 0.0f), 200));
 }
+
 void GameManager::SpawnObjects()
 {
-	Entity* player = getEntitieByTag("Player");
-
 	Vector2D pos = { getRandomInt(50, 950), getRandomInt(50, 550) };
-	Vector2D playerPos = { player->getPosition() };
 
-	int dist = playerPos.Distance(pos);
-
-	if (dist < 100)
+	for (Entity* entity : entities)
 	{
-		SpawnObjects();
-		return;
+		if (pos.abs(entity->getPosition().x) < 75)
+			return;
 	}
 
-	Obstacles* newObstacle = new Obstacles(pos, { getRandomInt(-1, 1), getRandomInt(-1, 1) }, 250);
+	Obstacles* newObstacle = new Obstacles(pos);
 	addEntity(newObstacle);
 }
 
@@ -186,37 +164,15 @@ void GameManager::handleEvents()
 
 	if (inputManager.IsKeyDown(SDLK_ESCAPE))
 	{
-		if (m_gameState == GameState::PLAYING || m_gameState == GameState::GAME_OVER)
+		if (m_gameState == GameState::PLAYING)
 		{
 			resetGame();
-			m_gameState = GameState::START_MENU;
+			m_gameState = GameState::PAUSE;
 			inputManager.resetKey(SDLK_ESCAPE);
 			return;
 		}
 		isRunning = false;
 		return;
-	}
-
-	if (m_gameState == GameState::START_MENU)
-	{
-		if (inputManager.IsKeyDown(SDLK_RETURN) || inputManager.IsKeyDown(SDLK_SPACE))
-		{
-			resetGame();
-			m_gameState = GameState::PLAYING;
-			inputManager.resetKey(SDLK_RETURN);
-			inputManager.resetKey(SDLK_SPACE);
-			return;
-		}
-	}
-	else if (m_gameState == GameState::GAME_OVER)
-	{
-		if (inputManager.IsKeyDown(SDLK_r))
-		{
-			resetGame();
-			m_gameState = GameState::PLAYING;
-			inputManager.resetKey(SDLK_r);
-			return;
-		}
 	}
 
 	if (inputManager.IsMouseDown(SDL_BUTTON_LEFT))
@@ -225,15 +181,41 @@ void GameManager::handleEvents()
 		int mx = (int)mp.x;
 		int my = (int)mp.y;
 
-		if (m_gameState == GameState::START_MENU && m_menuManager.isPlayClicked(mx, my))
+		if (m_gameState == GameState::MENU && m_menuManager.isPlayClicked(mx, my))
 		{
 			resetGame();
 			m_gameState = GameState::PLAYING;
 		}
-		else if (m_gameState == GameState::GAME_OVER && m_menuManager.isReplayClicked(mx, my))
+		else if (m_gameState == GameState::MENU && m_menuManager.isQuitClicked(mx, my))
+		{
+			isRunning = false;
+		}
+		else if (m_gameState == GameState::PAUSE && m_menuManager.isQuitClicked(mx, my))
+		{
+			m_gameState = GameState::MENU;
+		}
+		else if (m_gameState == GameState::PAUSE && m_menuManager.isReplayClicked(mx, my))
 		{
 			resetGame();
 			m_gameState = GameState::PLAYING;
+		}
+		else if (m_gameState == GameState::PAUSE && m_menuManager.isBoutiqueClicked(mx, my))
+		{
+			m_gameState = GameState::SHOP;
+		}
+		else if (m_gameState == GameState::SHOP && m_menuManager.isBoutiqueClicked(mx, my))
+		{
+			m_maxTimeOnScreen *= 1.05f;
+			std::cout << "Delay upgrade" << std::endl;
+		}
+		else if (m_gameState == GameState::SHOP && m_menuManager.isReplayClicked(mx, my))
+		{
+			m_precision *= 1.05f;
+			std::cout << "AIM ASSIST" << std::endl;
+		}
+		else if (m_gameState == GameState::SHOP && m_menuManager.isQuitClicked(mx, my))
+		{
+			m_gameState = GameState::PAUSE;
 		}
 	}
 }
@@ -245,18 +227,23 @@ void GameManager::render()
 
 	switch (m_gameState)
 	{
-	case GameState::START_MENU:
+	case GameState::MENU:
 		m_menuManager.renderStartMenu(renderer);
 		break;
 
 	case GameState::PLAYING:
 		for (auto* e : entities)
 			e->render(renderer);
+
 		renderTime(m_elapsedTime, 10, 10);
 		break;
 
-	case GameState::GAME_OVER:
-		m_menuManager.renderGameOver(renderer, m_elapsedTime);
+	case GameState::PAUSE:
+		m_menuManager.renderPause(renderer);
+		break;
+
+	case GameState::SHOP:
+		m_menuManager.renderShop(renderer);
 		break;
 	}
 
@@ -334,8 +321,8 @@ void GameManager::renderTime(float elapsed, int x, int y)
 	int gap = 5;
 	int colonW = 6;
 
-	minutes = (int)elapsed / 60;
-	seconds = (int)elapsed % 60;
+	int minutes = (int)elapsed / 60;
+	int seconds = (int)elapsed % 60;
 
 	int m1 = minutes / 10;
 	int m2 = minutes % 10;

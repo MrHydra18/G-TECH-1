@@ -15,15 +15,16 @@ private:
 	std::vector<Entity*> entities;
 
 	MenuManager m_menuManager;
-	GameState   m_gameState = GameState::START_MENU;
+	GameState   m_gameState = GameState::MENU;
 
-	int m_maxObstacles = 15;
-	float m_spawnInterval = 2.0f; 
+	int points = 0;
+	float m_spawnInterval = 1.0f; 
+	float m_maxTimeOnScreen = 3.0f;
 	float m_spawnTimer = 0.0f;
 	int m_obstacleCount = 0;
 	int m_lastSpeedUp = 0;
-	int minutes;
-	int seconds;
+
+	float m_precision = 10.f;
 
 	float m_elapsedTime = 0.0f;
 

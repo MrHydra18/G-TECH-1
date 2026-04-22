@@ -13,15 +13,4 @@ void Obstacles::render(SDL_Renderer* renderer)
 
 void Obstacles::update(float deltaTime)
 {
-    m_rect.x += direction.x * speed * deltaTime;
-    m_rect.y += direction.y * speed * deltaTime;
-
-    if (m_rect.x <= 0 || m_rect.x + m_rect.w >= 1000)
-    {
-        direction.x *= -1;
-    }
-    if (m_rect.y <= 0 || m_rect.y + m_rect.h >= 600)
-    {
-        direction.y *= -1;
-    }
 }
