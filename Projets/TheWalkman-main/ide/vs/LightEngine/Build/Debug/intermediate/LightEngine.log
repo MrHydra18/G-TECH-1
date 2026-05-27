@@ -1,114 +1,233 @@
 ﻿  Animation.cpp
-  BoxCollider.cpp
-  Button.cpp
-  Camera.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/LightEngine/Camera.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\LightEngine\Animation.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Animation.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Animation.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Camera.cpp(250,13): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Camera.cpp(288,14): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Camera.cpp(308,24): warning C4305: '-=': truncamiento de 'double' a 'float'
+  BoxCollider.cpp
+\src\LightEngine\BoxCollider.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\BoxCollider.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/BoxCollider.cpp")
+  
+  Button.cpp
+\src\LightEngine\Button.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Button.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Button.cpp")
+  
+  Camera.cpp
+\src\LightEngine\Camera.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Camera.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Camera.cpp")
+  
   CircleCollider.cpp
+\src\LightEngine\CircleCollider.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\CircleCollider.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/CircleCollider.cpp")
+  
   Collidable.cpp
+\src\LightEngine\Collidable.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Collidable.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Collidable.cpp")
+  
   Collider.cpp
+\src\LightEngine\Collider.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Collider.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Collider.cpp")
+  
   CollisionSystem.cpp
+\src\LightEngine\CollisionSystem.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\CollisionSystem.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/CollisionSystem.cpp")
+  
   Component.cpp
+\src\LightEngine\Component.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Component.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Component.cpp")
+  
   DataAsset.cpp
+\src\LightEngine\DataAsset.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\DataAsset.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/DataAsset.cpp")
+  
   DataManager.cpp
+\src\LightEngine\DataManager.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\DataManager.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/DataManager.cpp")
+  
   DataSource.cpp
+\src\LightEngine\DataSource.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\DataSource.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/DataSource.cpp")
+  
   Debug.cpp
+\src\LightEngine\Debug.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Debug.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Debug.cpp")
+  
   Drawable.cpp
+\src\LightEngine\Drawable.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Drawable.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Drawable.cpp")
+  
   Entity.cpp
+\src\LightEngine\Entity.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Entity.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Entity.cpp")
+  
   ExplorationTriggerLogic.cpp
+\src\LightEngine\ExplorationTriggerLogic.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\ExplorationTriggerLogic.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/ExplorationTriggerLogic.cpp")
+  
   FileDataSource.cpp
+\src\LightEngine\FileDataSource.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\FileDataSource.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/FileDataSource.cpp")
+  
   FixedUpdatable.cpp
+\src\LightEngine\FixedUpdatable.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\FixedUpdatable.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/FixedUpdatable.cpp")
+  
   FloatField.cpp
+\src\LightEngine\FloatField.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\FloatField.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/FloatField.cpp")
+  
   GameManager.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/LightEngine/GameManager.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\LightEngine\GameManager.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\GameManager.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/GameManager.cpp")
   
   Generando código...
   Compilando...
   ImageLayerRenderer.cpp
+\src\LightEngine\ImageLayerRenderer.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\ImageLayerRenderer.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/ImageLayerRenderer.cpp")
+  
   imgui-SFML.cpp
+\src\LightEngine\imgui-SFML.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\imgui-SFML.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/imgui-SFML.cpp")
+  
   imgui.cpp
+\src\LightEngine\imgui.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\imgui.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/imgui.cpp")
+  
   imgui_demo.cpp
+\src\LightEngine\imgui_demo.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\imgui_demo.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/imgui_demo.cpp")
+  
   imgui_draw.cpp
+\src\LightEngine\imgui_draw.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\imgui_draw.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/imgui_draw.cpp")
+  
   imgui_tables.cpp
+\src\LightEngine\imgui_tables.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\imgui_tables.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/imgui_tables.cpp")
+  
   imgui_widgets.cpp
+\src\LightEngine\imgui_widgets.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\imgui_widgets.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/imgui_widgets.cpp")
+  
   IniFile.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\IniFile.cpp(54,38): warning C4101: 'e': variable local sin referencia
+\src\LightEngine\IniFile.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\IniFile.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/IniFile.cpp")
+  
   Inspectable.cpp
+\src\LightEngine\Inspectable.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Inspectable.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Inspectable.cpp")
+  
   ItemData.cpp
+\src\LightEngine\ItemData.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\ItemData.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/ItemData.cpp")
+  
   Listener.cpp
+\src\LightEngine\Listener.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Listener.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Listener.cpp")
+  
   AssetsManager.cpp
+\src\LightEngine\Managers\AssetsManager.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Managers\AssetsManager.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Managers/AssetsManager.cpp")
+  
   EventManager.cpp
+\src\LightEngine\Managers\EventManager.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Managers\EventManager.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Managers/EventManager.cpp")
+  
   InputManager.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244: '=': conversión de 'T' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244:             T=int
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(19,37): warning C4244:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244: '=': conversión de 'T' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244:             T=int
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Managers\InputManager.cpp(20,37): warning C4244:         ]
+\src\LightEngine\Managers\InputManager.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Managers\InputManager.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Managers/InputManager.cpp")
+  
   ShaderManager.cpp
+\src\LightEngine\Managers\ShaderManager.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Managers\ShaderManager.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Managers/ShaderManager.cpp")
+  
   Music.cpp
+\src\LightEngine\Music.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Music.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Music.cpp")
+  
   PropAtlas.cpp
+\src\LightEngine\PropAtlas.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\PropAtlas.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/PropAtlas.cpp")
+  
   PropRenderer.cpp
+\src\LightEngine\PropRenderer.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\PropRenderer.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/PropRenderer.cpp")
+  
   RenderLayerComponent.cpp
+\src\LightEngine\RenderLayerComponent.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\RenderLayerComponent.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/RenderLayerComponent.cpp")
+  
   Rigidbody2D.cpp
+\src\LightEngine\Rigidbody2D.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Rigidbody2D.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Rigidbody2D.cpp")
+  
   Generando código...
   Compilando...
   Savable.cpp
+\src\LightEngine\Savable.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Savable.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Savable.cpp")
+  
   Scene.cpp
+\src\LightEngine\Scene.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Scene.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Scene.cpp")
+  
   SceneManager.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/LightEngine/SceneManager.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\LightEngine\SceneManager.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\SceneManager.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/SceneManager.cpp")
   
   Slider.cpp
+\src\LightEngine\Slider.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Slider.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Slider.cpp")
+  
   Sound.cpp
+\src\LightEngine\Sound.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Sound.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Sound.cpp")
+  
   Sprite.cpp
+\src\LightEngine\Sprite.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Sprite.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Sprite.cpp")
+  
   StatField.cpp
+\src\LightEngine\StatField.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\StatField.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/StatField.cpp")
+  
   StatsWindow.cpp
+\src\LightEngine\StatsWindow.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\StatsWindow.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/StatsWindow.cpp")
+  
   TagComponent.cpp
+\src\LightEngine\TagComponent.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\TagComponent.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/TagComponent.cpp")
+  
   TextComponent.cpp
+\src\LightEngine\TextComponent.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\TextComponent.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/TextComponent.cpp")
+  
   TiledUtils.cpp
+\src\LightEngine\TiledUtils.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\TiledUtils.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/TiledUtils.cpp")
+  
   TilemapLoader.cpp
+\src\LightEngine\TilemapLoader.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\TilemapLoader.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/TilemapLoader.cpp")
+  
   TilemapRenderer.cpp
+\src\LightEngine\TilemapRenderer.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\TilemapRenderer.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/TilemapRenderer.cpp")
+  
   tinyxml2.cpp
+\src\LightEngine\tinyxml2.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\tinyxml2.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/tinyxml2.cpp")
+  
   TransformComponent.cpp
+\src\LightEngine\TransformComponent.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\TransformComponent.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/TransformComponent.cpp")
+  
   Updatable.cpp
+\src\LightEngine\Updatable.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Updatable.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Updatable.cpp")
+  
   Utils.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(34,19): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244: 'argumento': conversión de 'const T' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,50): warning C4244:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244: 'argumento': conversión de 'const T' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,42): warning C4244:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244: 'argumento': conversión de 'const T' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,34): warning C4244:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244: 'argumento': conversión de 'const T' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(39,26): warning C4244:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Utils.cpp(47,37): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+\src\LightEngine\Utils.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\LightEngine\Utils.cpp': No such file or directory
+  (compilando archivo de origen "/src/LightEngine/Utils.cpp")
+  
   Generando código...
-  LightEngine.vcxproj -> C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\ide\vs\LightEngine\Build\Debug\LightEngine.lib

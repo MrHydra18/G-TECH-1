@@ -1,547 +1,119 @@
 ﻿  AmbiantShader.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(65,62): warning C4267: 'argumento': conversión de 'size_t' a 'T'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(65,62): warning C4267:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(65,62): warning C4267:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(65,62): warning C4267:             T=int
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(65,62): warning C4267:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(87,65): warning C4267: 'argumento': conversión de 'size_t' a 'T'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(87,65): warning C4267:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(87,65): warning C4267:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(87,65): warning C4267:             T=int
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\AmbiantShader.cpp(87,65): warning C4267:         ]
+\src\MiniStudio\AmbiantShader.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\AmbiantShader.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/AmbiantShader.cpp")
+  
   ArrowLogic.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,63): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,63): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,63): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,63): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,63): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,58): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,58): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,58): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,58): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\ArrowLogic.cpp(42,58): warning C4305:         ]
+\src\MiniStudio\ArrowLogic.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\ArrowLogic.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/ArrowLogic.cpp")
+  
   BatMovement.cpp
+\src\MiniStudio\BatMovement.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\BatMovement.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/BatMovement.cpp")
+  
   CheckZoneLogic.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/CheckZoneLogic.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\CheckZoneLogic.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\CheckZoneLogic.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/CheckZoneLogic.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,64): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,64): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,64): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,64): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,64): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,59): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,59): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,59): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,59): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(156,59): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,64): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,64): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,64): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,64): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,64): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,59): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,59): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,59): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,59): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(176,59): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,64): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,64): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,64): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,64): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,64): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,59): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,59): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,59): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,59): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(196,59): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,63): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,63): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,63): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,63): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,63): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,58): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,58): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,58): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,58): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\CheckZoneLogic.cpp(216,58): warning C4305:         ]
   DeathMenuScene.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/DeathMenuScene.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\DeathMenuScene.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\DeathMenuScene.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/DeathMenuScene.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(42,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(42,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(52,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(52,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(62,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(62,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(104,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(129,29): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\DeathMenuScene.cpp(151,29): warning C4305: '=': truncamiento de 'double' a 'float'
   DoorLogic.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/DoorLogic.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\DoorLogic.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\DoorLogic.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/DoorLogic.cpp")
   
   EndMenu.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/EndMenu.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\EndMenu.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\EndMenu.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/EndMenu.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(40,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(40,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(62,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(62,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\EndMenu.cpp(120,25): warning C4305:         ]
   HealthBar.cpp
+\src\MiniStudio\HealthBar.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\HealthBar.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/HealthBar.cpp")
+  
   HypeBar.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\HypeBar.cpp(19,18): warning C4244: 'inicializando': conversión de 'T' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\HypeBar.cpp(19,18): warning C4244:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\HypeBar.cpp(19,18): warning C4244:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\HypeBar.cpp(19,18): warning C4244:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\HypeBar.cpp(19,18): warning C4244:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\HypeBar.cpp(20,16): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+\src\MiniStudio\HypeBar.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\HypeBar.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/HypeBar.cpp")
+  
   Inventory.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/Inventory.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\Inventory.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\Inventory.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/Inventory.cpp")
   
   KeyBinds.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\KeyBinds.cpp(44,39): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\KeyBinds.cpp(54,45): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\KeyBinds.cpp(63,45): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\KeyBinds.cpp(104,39): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\KeyBinds.cpp(129,48): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+\src\MiniStudio\KeyBinds.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\KeyBinds.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/KeyBinds.cpp")
+  
   main.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/main.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\main.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\main.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/main.cpp")
   
   MainMenuScene.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/MainMenuScene.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\MainMenuScene.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\MainMenuScene.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/MainMenuScene.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(71,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(96,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(119,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(168,29): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MainMenuScene.cpp(190,29): warning C4305: '=': truncamiento de 'double' a 'float'
   MusicChange.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/MusicChange.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\MusicChange.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\MusicChange.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/MusicChange.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MusicChange.cpp(63,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MusicChange.cpp(90,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\MusicChange.cpp(101,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
   PauseScene.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/PauseScene.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\PauseScene.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\PauseScene.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/PauseScene.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(59,42): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(60,43): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(88,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(98,15): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(110,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(116,56): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(126,15): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(137,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(143,61): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(158,15): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,29): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,29): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,29): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,29): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,29): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,24): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,24): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,24): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,24): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(165,24): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(174,52): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(188,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(192,15): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(203,52): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(214,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(254,29): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\PauseScene.cpp(276,29): warning C4305: '=': truncamiento de 'double' a 'float'
   PlayerAnimationController.cpp
+\src\MiniStudio\PlayerAnimationController.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\PlayerAnimationController.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/PlayerAnimationController.cpp")
+  
   PlayerHealth.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/PlayerHealth.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\PlayerHealth.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\PlayerHealth.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/PlayerHealth.cpp")
   
   PlayerInteract.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/PlayerInteract.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\PlayerInteract.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\PlayerInteract.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/PlayerInteract.cpp")
   
   PlayerMovement.cpp
+\src\MiniStudio\PlayerMovement.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\PlayerMovement.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/PlayerMovement.cpp")
+  
   PlayerWalljump.cpp
+\src\MiniStudio\PlayerWalljump.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\PlayerWalljump.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/PlayerWalljump.cpp")
+  
   Generando código...
   Compilando...
   RatMovement.cpp
+\src\MiniStudio\RatMovement.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\RatMovement.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/RatMovement.cpp")
+  
   RebindButton.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\RebindButton.cpp(13,19): warning C4305: '=': truncamiento de 'double' a 'float'
+\src\MiniStudio\RebindButton.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\RebindButton.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/RebindButton.cpp")
+  
   RhythmSpawner.cpp
+\src\MiniStudio\RhythmSpawner.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\RhythmSpawner.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/RhythmSpawner.cpp")
+  
   RythmeText.cpp
+\src\MiniStudio\RythmeText.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\RythmeText.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/RythmeText.cpp")
+  
   SettingsLoader.cpp
+\src\MiniStudio\SettingsLoader.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\SettingsLoader.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/SettingsLoader.cpp")
+  
   SettingsScene.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/SettingsScene.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\SettingsScene.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\SettingsScene.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/SettingsScene.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,31): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,31): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,31): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,31): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,31): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(328,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,31): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,31): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,31): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,31): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,31): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(351,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(380,29): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\SettingsScene.cpp(402,29): warning C4305: '=': truncamiento de 'double' a 'float'
   Slider.cpp
-  SoundEffect.cpp
-  StartScene.cpp
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\SceneManager.h(7,1): warning C4005: 'FIXED_DT': redefinición de macro
-  (compilando archivo de origen "../../../src/MiniStudio/StartScene.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\GameManager.h(11,1):
-      vea la definición anterior de 'FIXED_DT'
+\src\MiniStudio\Slider.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\Slider.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/Slider.cpp")
   
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(321,73): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(321,60): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(385,31): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(385,28): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(399,31): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(399,28): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(424,31): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(424,28): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,62): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,62): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,62): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,62): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,62): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,57): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,57): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,57): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,57): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(468,57): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,22): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,22): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,22): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,22): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,22): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,17): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,17): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,17): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,17): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(522,17): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(595,101): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(595,101): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(595,101): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(595,101): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(595,101): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(603,101): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(603,101): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(603,101): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(603,101): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(603,101): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(610,101): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(610,101): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(610,101): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(610,101): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(610,101): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(618,101): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(618,101): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(618,101): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(618,101): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(618,101): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(675,101): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(675,101): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(675,101): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(675,101): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(675,101): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,30): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,30): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,30): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,30): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,30): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,25): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,25): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,25): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,25): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(722,25): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,26): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,26): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,26): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,26): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,26): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,21): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,21): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,21): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,21): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(744,21): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(791,66): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(791,63): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(804,64): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(804,61): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,31): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,31): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,31): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,31): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,31): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,24): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,24): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,24): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,24): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(818,24): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(823,64): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(823,57): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,31): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,31): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,31): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,31): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,31): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,24): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,24): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,24): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,24): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(852,24): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(911,60): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,31): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,31): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,31): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,31): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,31): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,24): warning C4305: 'argumento': truncamiento de 'double' a 'T'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,24): warning C4305:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,24): warning C4305:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,24): warning C4305:             T=float
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(924,24): warning C4305:         ]
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(930,58): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(930,55): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(1014,28): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(1014,22): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(1052,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Entity.h(47,42): warning C4244: 'argumento': conversión de '_Ty' a 'float'; posible pérdida de datos
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Entity.h(47,42): warning C4244:         with
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Entity.h(47,42): warning C4244:         [
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Entity.h(47,42): warning C4244:             _Ty=int
-C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Entity.h(47,42): warning C4244:         ]
-  (compilando archivo de origen "../../../src/MiniStudio/StartScene.cpp")
-      C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\LightEngine\Entity.h(47,42):
-      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-          C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\src\MiniStudio\StartScene.cpp(1047,25):
-          Vea la referencia a la creación de una instancia de la función plantilla "T *Entity::AddComponent<HypeBar,int,int>(int &&,int &&)" que se está compilando
-          with
-          [
-              T=HypeBar
-          ]
+  SoundEffect.cpp
+\src\MiniStudio\SoundEffect.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\SoundEffect.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/SoundEffect.cpp")
+  
+  StartScene.cpp
+\src\MiniStudio\StartScene.cpp(1,1): error C1083: No se puede abrir el archivo origen: '..\..\..\src\MiniStudio\StartScene.cpp': No such file or directory
+  (compilando archivo de origen "/src/MiniStudio/StartScene.cpp")
   
   Generando código...
-sfml-graphics-s-d.lib(RenderTarget.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RenderTarget.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Shader.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Shader.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Color.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Color.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Transformable.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Transformable.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Shape.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Shape.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(RectangleShape.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RectangleShape.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(RenderStates.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RenderStates.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Sprite.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Sprite.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Image.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Image.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Texture.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Texture.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Transform.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Transform.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(View.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(View.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(BlendMode.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(BlendMode.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Vertex.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Vertex.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(VertexBuffer.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(VertexBuffer.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(GLExtensions.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(GLExtensions.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(GLCheck.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(GLCheck.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(GLLoader.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(GLLoader.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Glsl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Glsl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(VertexArray.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(VertexArray.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(ImageLoader.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(ImageLoader.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(TextureSaver.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(TextureSaver.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(Window.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Window.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(Context.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Context.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(GlResource.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(GlResource.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(Cursor.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Cursor.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(VideoMode.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(VideoMode.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(GlContext.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(GlContext.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(WindowImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(WindowImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(CursorImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(CursorImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(VideoModeImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(VideoModeImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(WglContext.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(WglContext.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(JoystickManager.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(JoystickManager.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(SensorManager.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(SensorManager.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(WindowImplWin32.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(WindowImplWin32.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(WglExtensions.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(WglExtensions.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(Joystick.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Joystick.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(JoystickImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(JoystickImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(SensorImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(SensorImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(Listener.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(Listener.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(Music.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(Music.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(Sound.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(Sound.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundBuffer.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundBuffer.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(AudioDevice.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(AudioDevice.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundStream.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundStream.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(InputSoundFile.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(InputSoundFile.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundSource.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundSource.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(ALCheck.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(ALCheck.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(AlResource.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(AlResource.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(OutputSoundFile.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(OutputSoundFile.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundFileFactory.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundFileFactory.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundFileReaderFlac.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundFileReaderFlac.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundFileWriterFlac.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundFileWriterFlac.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundFileReaderOgg.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundFileReaderOgg.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundFileWriterOgg.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundFileWriterOgg.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundFileReaderWav.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundFileReaderWav.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-audio-s-d.lib(SoundFileWriterWav.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-audio-s-d.lib(SoundFileWriterWav.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(Time.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(Time.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(Clock.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(Clock.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(Mutex.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(Mutex.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(Lock.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(Lock.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(Err.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(Err.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(Sleep.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(Sleep.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(ThreadLocal.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(ThreadLocal.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(String.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(String.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(Thread.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(Thread.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(FileInputStream.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(FileInputStream.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(MemoryInputStream.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(MemoryInputStream.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(ClockImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(ClockImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(MutexImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(MutexImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(SleepImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(SleepImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(ThreadLocalImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(ThreadLocalImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-system-s-d.lib(ThreadImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(ThreadImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Font.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Font.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(RenderTexture.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RenderTexture.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(RenderWindow.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RenderWindow.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Text.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Text.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(CircleShape.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(CircleShape.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(RenderTextureImplFBO.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RenderTextureImplFBO.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(RenderTextureImplDefault.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RenderTextureImplDefault.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(RenderTextureImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RenderTextureImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(Mouse.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Mouse.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(Clipboard.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Clipboard.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(Touch.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Touch.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(InputImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(InputImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(ClipboardImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(ClipboardImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-  MiniStudio.vcxproj -> C:\Users\ikerc\Documents\GitHub\G-TECH-1\Projets\TheWalkman-main\ide\vs\MiniStudio\Build\Debug\MiniStudio.exe

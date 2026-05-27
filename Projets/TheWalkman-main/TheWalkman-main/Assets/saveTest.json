@@ -8,14 +8,14 @@
                 },
                 "PlayerHealth": {
                     "health": 3,
-                    "invulnerabilityCouldown": -4.811638832092285
+                    "invulnerabilityCouldown": -30.91329002380371
                 },
                 "TransformComponent": {
-                    "x": 1577.078369140625,
+                    "x": 2644.236328125,
                     "y": 1065.300048828125
                 }
             },
-            "id": 1411
+            "id": 234
         }
     ]
 }
